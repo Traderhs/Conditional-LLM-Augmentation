@@ -32,7 +32,7 @@ flowchart LR
 
 ## Public repository structure
 
-Only the releasable source code and this README are distributed through the public repository:
+The public release contains both the releasable source code and a curated redistribution-safe reproducibility package:
 
 ```text
 Conditional-Utility-of-LLM-Generated-Data-Augmentation-in-Multilingual-Binary-Classification/
@@ -42,6 +42,12 @@ Conditional-Utility-of-LLM-Generated-Data-Augmentation-in-Multilingual-Binary-Cl
 │  ├─ Data/                          # Dataset preparation and fixed experiment-bank construction
 │  ├─ Figures/                       # Manuscript figure-generation scripts
 │  └─ Pilot/                         # Generation-prompt pilot and validation
+├─ Public/
+│  ├─ Data/                          # Text-free experiment-bank indices, split/repetition manifests, and generation plans
+│  ├─ Results/                       # Sanitized synthetic outputs and numeric publication/revision result artifacts
+│  ├─ DATA_REDISTRIBUTION_NOTES.md
+│  ├─ PACKAGE_MANIFEST.sha256
+│  └─ README.md
 ├─ .gitignore
 └─ README.md
 ```
@@ -54,7 +60,9 @@ Conditional-Utility-of-LLM-Generated-Data-Augmentation-in-Multilingual-Binary-Cl
 
 `Sources/Figures/` contains scripts used to generate the manuscript figures from preserved result tables.
 
-The repository does not contain the complete `Data/` or `Results/` trees. Raw third-party datasets, prepared local copies, generated candidate text, embedding arrays, SQLite state files, lock files, and preserved experimental outputs are intentionally excluded from version control.
+`Public/` contains the curated reproducibility release assembled for the revision. It includes text-free real-data experiment-bank indices and exact repetition membership, sanitized generated outputs, main numeric result tables, candidate-count sensitivity results, targeted robustness results including the XLM-R arm, and a redistribution-safe qualitative-audit release. Third-party source text is not redistributed; stable row identifiers and text hashes are provided instead where reconstruction is required.
+
+The repository does not contain the complete local `Data/` or `Results/` trees. Raw third-party datasets, prepared local copies, embedding arrays, SQLite state files, lock files, raw model responses, and other private/intermediate artifacts remain excluded from version control. Redistributable synthetic outputs and preserved numeric results needed to document the reported analyses are provided selectively under `Public/`.
 
 ## Local data layout
 
@@ -261,7 +269,7 @@ LM Studio must be installed and configured separately with the generation and em
 
 The original datasets are third-party research resources and are not redistributed through this repository. The manuscript states that the datasets used and/or analyzed during the study are available from the corresponding author on reasonable request.
 
-Generated candidates, embeddings, manifests, and preserved outputs are also excluded from the public repository because of their size. They may be supplied separately for confidential editorial or peer-review verification when appropriate and subject to the original dataset and model licenses.
+The curated `Public/` package provides sanitized generated candidates, text-free experiment manifests, exact repetition membership, and preserved numeric outputs needed to document the main and revision analyses. Original third-party source text, prepared dataset copies, embeddings, model files, and private/intermediate runtime artifacts are not redistributed. The qualitative audit likewise omits original source text and instead provides row identifiers and source-text hashes so that users who obtain the original datasets can reconstruct the exact audited pairs locally.
 
 ## Research-use notice
 
