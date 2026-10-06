@@ -1,0 +1,98 @@
+{
+  "base_label_vector": {
+    "0": 186,
+    "1": 94
+  },
+  "base_n": 280,
+  "cell_id": "ha_binary_hausahate",
+  "experiment_bank_label_counts": {
+    "0": 930,
+    "1": 470
+  },
+  "experiment_bank_n": 1400,
+  "label_mapping": {
+    "0": "non-offensive",
+    "1": "offensive"
+  },
+  "prepared_split_rows": {
+    "dev": 247,
+    "test": 248,
+    "train": 1485
+  },
+  "prepared_split_sha256": {
+    "dev": "2f615df609ecd9a69f36e0df676bf9dfedfb2ad51b153fdc28bbbce069826c1d",
+    "test": "57272831c731d3fd51a166d97d8d7a8ebfe3e35479c819f09fcf3f0f0e1df725",
+    "train": "c4f51500f3b005514e478a49db390cc082e963f8e971654750728e43b1537da1"
+  },
+  "protocol_version": "journal-matched-size-offensive-v1",
+  "ratios": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0
+  ],
+  "repeat_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039,
+    1040,
+    1041,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049
+  ],
+  "task": "binary_offensive_language_detection",
+  "train_label_counts": {
+    "0": 986,
+    "1": 499
+  }
+}
