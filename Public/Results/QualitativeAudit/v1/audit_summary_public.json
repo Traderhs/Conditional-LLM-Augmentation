@@ -1,0 +1,63 @@
+{
+  "audit_version": "qualitative-audit-v1",
+  "formal_human_evaluation": false,
+  "human_quality_scores_present": false,
+  "inter_rater_agreement_present": false,
+  "selection_uses_downstream_performance": false,
+  "selection_algorithm": "For each dataset and label, retain valid candidate_index=0 rows, sort source row IDs by SHA-256(cell_id + '|' + row_id), and select the first five.",
+  "candidate_index": 0,
+  "pairs_total": 50,
+  "pairs_per_dataset": 10,
+  "pairs_per_label_per_dataset": 5,
+  "datasets": [
+    {
+      "cell_id": "en_binary_sst2",
+      "display_name": "English",
+      "pairs": 10,
+      "negative": 5,
+      "positive": 5,
+      "representative_row_id": "c42d8a077ea9260f0e72ab8e"
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "display_name": "Korean",
+      "pairs": 10,
+      "negative": 5,
+      "positive": 5,
+      "representative_row_id": "c0600632979a1f6d1cd9f8d1"
+    },
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "display_name": "Bengali",
+      "pairs": 10,
+      "negative": 5,
+      "positive": 5,
+      "representative_row_id": "b53e0079c2897601ec4c9a6a"
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "display_name": "Hausa",
+      "pairs": 10,
+      "negative": 5,
+      "positive": 5,
+      "representative_row_id": "bc3ef9f80c65eb04bc02e7a8"
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "display_name": "Malayalam",
+      "pairs": 10,
+      "negative": 5,
+      "positive": 5,
+      "representative_row_id": "c60ffe24cfcfdece22b68636"
+    }
+  ],
+  "source_text_redistributed": false,
+  "source_reconstruction": "Obtain the original dataset from its provider, run the public preprocessing code, and identify the source using cell_id, row_id, source_row_index, and source_text_hash.",
+  "public_outputs": [
+    "audit_pairs_public.csv",
+    "representative_examples_public.csv",
+    "audit_summary_public.json",
+    "qualitative_findings_public.md",
+    "README.md"
+  ]
+}

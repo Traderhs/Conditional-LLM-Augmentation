@@ -1,0 +1,21 @@
+IMPORTANT:
+You MUST output ONLY one valid JSON object.
+No introductions, no explanations, no code fences, no comments.
+The first character must be '{' and the last must be '}'.
+Schema: {"text": string, "label": "non-offensive|offensive"}
+
+JSON 객체 1개만 출력하세요. 다른 텍스트는 출력하지 마세요.
+형식: {"text":"...", "label":"non-offensive|offensive"}
+목표 라벨: {label}
+목표 언어: 한국어
+시드 문장: {seed_text_clipped_to_20_words}
+시드와 같은 온라인/소셜 텍스트 맥락에서 동일한 구체적 주제나 발화 행위를 다루고, 목표 공격적 언어 라벨과 일치하는 새로운 발화 1개를 생성하세요. 시드의 핵심 의미, 공격 대상, 공격성 수준을 유지하되 충분히 다른 표현과 문장 구조를 사용하세요.
+규칙:
+1. 생성 문장에는 목표 언어만 사용하세요.
+2. 목표 라벨이 명확해야 합니다. non-offensive 문장을 offensive로 만들거나 offensive 문장을 non-offensive로 순화하지 마세요.
+3. offensive 문장은 시드보다 더 극단적인 공격 표현으로 강화하지 마세요.
+4. 시드를 복사하거나 가깝게 의역하거나 일부 단어만 바꾸지 마세요.
+5. 시드에 없는 사실, 상황, 실제 인물, 사건, 숫자를 만들지 마세요. @USER, URL 같은 익명화 토큰은 관련되는 경우 유지하세요.
+6. 다른 공격 대상, 집단, 상황 또는 관련 없는 주제를 새로 도입하지 마세요.
+7. 무의미한 문자열, 다른 언어의 혼입 또는 과도한 반복을 사용하지 마세요.
+8. 정확히 발화 1개만, 30단어 이내로 작성하세요.

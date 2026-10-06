@@ -1,0 +1,54 @@
+{
+  "best_condition": null,
+  "best_mean": null,
+  "best_se": null,
+  "bootstrap_configuration": {
+    "base_seed": 20260713,
+    "ci_level": 0.95,
+    "pooled_dataset_weight": 0.2,
+    "replicates": 10000
+  },
+  "clear_effect_region_found": false,
+  "criteria": {
+    "c1": "pooled delta_synth Macro-F1 CI lower > 0",
+    "c2": "at least 4 dataset delta_synth means > 0",
+    "c3": "no dataset delta_synth CI upper < 0",
+    "c4": "pooled delta_real Macro-F1 CI lower > 0",
+    "c5": "pooled g_real Macro-F1 CI lower > -0.01",
+    "c6": "at least 3 consecutive RATIOS within one similarity condition",
+    "c7": "ON run has adjacent C1-C5 band support at at least 2 ratios"
+  },
+  "equivalent_candidate_count": 0,
+  "experiment_id": "binary_matched_size_experiment",
+  "experiment_name": "Binary Matched-Size Augmentation Experiment",
+  "input_lock_sha256": {
+    "development_grid": "b8c0769206990486834c381a27e9ec92bfa69090659f2044f2847d26df0cbc27"
+  },
+  "one_se_threshold": null,
+  "selected_at": "2026-10-01T17:06:11.966041+00:00",
+  "selected_band_width": null,
+  "selected_gain_recovery": 1.1198558463242303,
+  "selected_pooled_delta_real_ci": [
+    0.02600280424774941,
+    0.029486988271846808
+  ],
+  "selected_pooled_delta_real_mean": 0.027742496567437946,
+  "selected_pooled_delta_synth_ci": [
+    0.029085652020399373,
+    0.03306274215251246
+  ],
+  "selected_pooled_delta_synth_mean": 0.031067596972675277,
+  "selected_pooled_delta_synth_se": 0.0010345375340488799,
+  "selected_pooled_g_real_ci": [
+    0.0018392786852018171,
+    0.00479083567182105
+  ],
+  "selected_pooled_g_real_mean": 0.0033251004052373364,
+  "selected_ratio": 1.0,
+  "selected_similarity_condition_id": "OFF",
+  "selected_similarity_enabled": false,
+  "selected_similarity_lower": null,
+  "selected_similarity_upper": null,
+  "selected_stable_region_id": null,
+  "selection_status": "clear_effect_region_absent_fallback"
+}

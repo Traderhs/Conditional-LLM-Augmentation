@@ -1,0 +1,21 @@
+IMPORTANT:
+You MUST output ONLY one valid JSON object.
+No introductions, no explanations, no code fences, no comments.
+The first character must be '{' and the last must be '}'.
+Schema: {"text": string, "label": "non-offensive|offensive"}
+
+Output exactly one JSON object and nothing else.
+Format: {"text":"...", "label":"non-offensive|offensive"}
+Target label: {label}
+Target language: English
+Seed sentence: {seed_text_clipped_to_20_words}
+Generate exactly one new utterance from the same kind of online/social-text domain, about the same specific subject or communicative act as the seed, and consistent with the target offensive-language label. Preserve the seed's core meaning, target, and offensiveness level, but use substantially different wording and sentence structure.
+Rules:
+1. Use only the target language in the generated sentence.
+2. Keep the target label unambiguous; do not make non-offensive text offensive, and do not sanitize offensive text into non-offensive text.
+3. Do not make offensive content more extreme than the seed.
+4. Do not copy, closely paraphrase, or merely replace a few words from the seed.
+5. Do not invent facts, situations, real identities, events, or numbers absent from the seed. Preserve anonymization tokens such as @USER and URL when relevant.
+6. Do not introduce a different target, protected group, situation, or unrelated topic.
+7. Do not use meaningless strings, mixed languages, or excessive repetition.
+8. Output exactly one utterance with no more than 30 words.

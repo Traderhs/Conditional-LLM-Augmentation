@@ -1,0 +1,83 @@
+{
+  "alpha": 0.05,
+  "analysis": "final_three_condition",
+  "blocking_factor": "repeat_seed",
+  "conditions": [
+    "Base",
+    "Selected Hybrid",
+    "Matched All-real"
+  ],
+  "counts": {
+    "holm_significant_omnibus": 4,
+    "holm_significant_posthoc": 11,
+    "mean_rank_rows": 12,
+    "omnibus_tests": 4,
+    "posthoc_tests": 12,
+    "raw_significant_omnibus": 4
+  },
+  "created_at": "2026-09-05T16:18:11.925402+00:00",
+  "excluded_off_cells": [
+    "ha_binary_hausa_movie_review",
+    "ko_binary_nsmc",
+    "ml_binary_dravidian_codemix"
+  ],
+  "expected_blocks_per_cell": 50,
+  "included_on_cells": [
+    "bn_binary_cinexdrama",
+    "en_binary_sst2"
+  ],
+  "input_hashes": {
+    "ADAPTIVE_ONE_SHOT_TEST_LOCK.json": "9379b903026cf75e18439e16ba7c5affb5546ae50492891d51a138f801c0dfe6",
+    "test_repeat_results.csv": "9cd405bd3b15a5f3c2e0cd1a1b1dc0acc7adcbb0de62a5849b0161d662ec4889"
+  },
+  "metric_labels": {
+    "auroc": "AUROC",
+    "macro_f1_at_oof_threshold": "Macro-F1 at OOF threshold"
+  },
+  "metrics": [
+    "macro_f1_at_oof_threshold",
+    "auroc"
+  ],
+  "multiple_testing": {
+    "omnibus": "Holm correction across all ON-cell x metric Friedman tests",
+    "posthoc": "Holm correction across delta_synth, delta_real, and g_real within each significant omnibus test"
+  },
+  "package_versions": {
+    "numpy": "2.4.4",
+    "scipy": "1.16.3"
+  },
+  "posthoc_comparisons": [
+    {
+      "condition_a": "Selected Hybrid",
+      "condition_b": "Base",
+      "difference": "Selected Hybrid - Base",
+      "effect_name": "delta_synth"
+    },
+    {
+      "condition_a": "Matched All-real",
+      "condition_b": "Base",
+      "difference": "Matched All-real - Base",
+      "effect_name": "delta_real"
+    },
+    {
+      "condition_a": "Selected Hybrid",
+      "condition_b": "Matched All-real",
+      "difference": "Selected Hybrid - Matched All-real",
+      "effect_name": "g_real"
+    }
+  ],
+  "posthoc_trigger": "holm",
+  "rank_direction": "rank 1 is best; larger metric values are better",
+  "report_version": "binary-final-three-condition-friedman-v1",
+  "scope": "Only Base, Selected Hybrid, and Matched All-real from augmentation-ON datasets in the locked one-shot test are compared. Development-grid searches and source-only diagnostic comparators are excluded.",
+  "source_experiment": "Frozen One-Shot Test",
+  "source_lock_sha256": "9379b903026cf75e18439e16ba7c5affb5546ae50492891d51a138f801c0dfe6",
+  "source_lock_validated": true,
+  "source_row_counts_by_cell": {
+    "bn_binary_cinexdrama": 200,
+    "en_binary_sst2": 200,
+    "ha_binary_hausa_movie_review": 100,
+    "ko_binary_nsmc": 100,
+    "ml_binary_dravidian_codemix": 100
+  }
+}

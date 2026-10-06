@@ -1,0 +1,751 @@
+arm,task,cell_id,repeat_seed,condition,train_n,macro_f1,auroc
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1000,Base,280,0.9218996138182469,0.9812557884987793
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1000,Hybrid,560,0.9172740928136611,0.9814925907215627
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1000,Matched All-real,560,0.9242222350964602,0.9816820324997894
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1001,Base,280,0.9322538295521732,0.9810716089921697
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1001,Hybrid,560,0.9322424090768411,0.9816767702281721
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1001,Matched All-real,560,0.9276486740989998,0.9818451629199293
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1002,Base,280,0.9276829613442945,0.9787983076534479
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1002,Hybrid,560,0.9276928604991846,0.9799296960511914
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1002,Matched All-real,560,0.9322837899912999,0.9818556874631641
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1003,Base,280,0.9264801972893788,0.9812926244001011
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1003,Hybrid,560,0.9276486740989998,0.9819767197103646
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1003,Matched All-real,560,0.9287908243636958,0.9818872610928687
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1004,Base,280,0.9195720346799483,0.9808979540287952
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1004,Hybrid,560,0.921885209619965,0.981418918918919
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1004,Matched All-real,560,0.9276722976842654,0.9814610170918582
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1005,Base,280,0.9310998735777497,0.9827765849962111
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1005,Hybrid,560,0.92646586027881,0.9827976340826807
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1005,Matched All-real,560,0.9311216429699842,0.9825082091437233
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1006,Base,280,0.9206209110230704,0.980882167213943
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1006,Hybrid,560,0.9252596725297649,0.9819398838090426
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1006,Matched All-real,560,0.9299787403492374,0.981203165782605
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1007,Base,280,0.9183975811351741,0.98090847857203
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1007,Hybrid,560,0.9207129613645677,0.9817451797591985
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1007,Matched All-real,560,0.9242098609355247,0.9817504420308159
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1008,Base,280,0.9126602564102564,0.9809926749179085
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1008,Hybrid,560,0.9184612041433171,0.9817504420308159
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1008,Matched All-real,560,0.9206962408215073,0.9823082428222615
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1009,Base,280,0.9323073117524074,0.9805874800033678
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1009,Hybrid,560,0.9311488353730755,0.9806453649911595
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1009,Matched All-real,560,0.9391778694619368,0.9813873452892146
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1010,Base,280,0.9311216429699842,0.9826239791193062
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1010,Hybrid,560,0.9253242689538415,0.9825924054896017
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1010,Matched All-real,560,0.934587519987366,0.9818293761050771
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1011,Base,280,0.92646586027881,0.9810505599057001
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1011,Hybrid,560,0.9253093114303899,0.9814820661783279
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1011,Matched All-real,560,0.9287776911240857,0.9813610339311273
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1012,Base,280,0.9287638021450971,0.9796507956554686
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1012,Hybrid,560,0.9287638021450971,0.9807769217815947
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1012,Matched All-real,560,0.9345503099063368,0.9813294603014229
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1013,Base,280,0.926450742240216,0.9817241306727289
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1013,Hybrid,560,0.9287908243636958,0.9821714237602088
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1013,Matched All-real,560,0.9334270535521543,0.9813452471162751
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1014,Base,280,0.927635712676791,0.9814820661783279
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1014,Hybrid,560,0.9265065318162664,0.9818609497347816
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1014,Matched All-real,560,0.9253242689538415,0.9819819819819819
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1015,Base,280,0.9207129613645677,0.9804401363980803
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1015,Hybrid,560,0.9207129613645677,0.981382083017597
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1015,Matched All-real,560,0.9299883252452422,0.9815189020796498
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1016,Base,280,0.9230111363974789,0.98046118548455
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1016,Hybrid,560,0.927635712676791,0.9812873621284837
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1016,Matched All-real,560,0.9288148269087959,0.9817451797591984
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1017,Base,280,0.9253871823393515,0.9803506777805844
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1017,Hybrid,560,0.926518531002628,0.9815241643512672
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1017,Matched All-real,560,0.9310998735777497,0.9817767533889029
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1018,Base,280,0.9207438757888664,0.9794666161488591
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1018,Hybrid,560,0.9230679081355186,0.980245432348236
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1018,Matched All-real,560,0.9299971705127952,0.9809558390165867
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1019,Base,280,0.9207438757888664,0.9807769217815947
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1019,Hybrid,560,0.9218699765462355,0.9812873621284837
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1019,Matched All-real,560,0.9345792547373575,0.9814873284499452
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1020,Base,280,0.9194807935837906,0.9812610507703965
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1020,Hybrid,560,0.9194599701273546,0.9817609665740507
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1020,Matched All-real,560,0.927635712676791,0.9823977014397576
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1021,Base,280,0.9253384337141495,0.9810189862759957
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1021,Hybrid,560,0.9264937541818794,0.9820714405994779
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1021,Matched All-real,560,0.9253384337141495,0.9810505599057001
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1022,Base,280,0.9288358158660959,0.9810663467205524
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1022,Hybrid,560,0.9276722976842654,0.9816136229687631
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1022,Matched All-real,560,0.9322645327519311,0.981382083017597
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1023,Base,280,0.9357226723951835,0.9818135892902249
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1023,Hybrid,560,0.9311111228149638,0.9823713900816704
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1023,Matched All-real,560,0.9345702983591235,0.9820240801549214
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1024,Base,280,0.9322745193541806,0.9801717605455924
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1024,Hybrid,560,0.9322745193541806,0.9815399511661194
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1024,Matched All-real,560,0.9334578849038234,0.9809295276584996
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1025,Base,280,0.9241359310326646,0.980961101288204
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1025,Hybrid,560,0.9253093114303899,0.9811821166961354
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1025,Matched All-real,560,0.934587519987366,0.9820872274143303
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1026,Base,280,0.9276608688438459,0.9816925570430244
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1026,Hybrid,560,0.9299573491980095,0.9818872610928686
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1026,Matched All-real,560,0.9241966840000633,0.9811979035109877
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1027,Base,280,0.9195554993252362,0.9813820830175971
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1027,Hybrid,560,0.9195554993252362,0.981418918918919
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1027,Matched All-real,560,0.926518531002628,0.9816925570430244
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1028,Base,280,0.926418159188237,0.9813610339311274
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1028,Hybrid,560,0.927607486463301,0.981445230277006
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1028,Matched All-real,560,0.931087894545512,0.982276669192557
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1029,Base,280,0.927635712676791,0.9801612360023575
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1029,Hybrid,560,0.9310998735777497,0.9808400690410037
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1029,Matched All-real,560,0.9242222350964602,0.9807821840532122
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1030,Base,280,0.9323001856718202,0.9807085122505684
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1030,Hybrid,560,0.9322645327519311,0.9817557043024333
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1030,Matched All-real,560,0.9368966465488544,0.9821819483034436
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1031,Base,280,0.9160608629949667,0.9806822008924813
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1031,Hybrid,560,0.9125791473195441,0.9813978698324491
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1031,Matched All-real,560,0.9310998735777497,0.9810189862759956
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1032,Base,280,0.9230111363974789,0.9826450282057757
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1032,Hybrid,560,0.9241679184125228,0.9830133872189946
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1032,Matched All-real,560,0.921885209619965,0.9818241138334597
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1033,Base,280,0.9299684152180983,0.9817451797591984
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1033,Hybrid,560,0.9253093114303899,0.9817557043024334
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1033,Matched All-real,560,0.9196025436364308,0.9816872947714068
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1034,Base,280,0.914879696074293,0.9799612696808958
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1034,Hybrid,560,0.916040491970851,0.9809084785720299
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1034,Matched All-real,560,0.9253871823393515,0.9812715753136315
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1035,Base,280,0.9275761830370385,0.9810610844489348
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1035,Hybrid,560,0.9322174133581023,0.9815557379809717
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1035,Matched All-real,560,0.92646586027881,0.9817714911172856
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1036,Base,280,0.9184147863316567,0.9805874800033678
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1036,Hybrid,560,0.9195720346799483,0.9813978698324493
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1036,Matched All-real,560,0.9299684152180983,0.9816241475119979
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1037,Base,280,0.9334358153638813,0.9806190536330724
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1037,Hybrid,560,0.9322745193541806,0.9815925738822935
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1037,Matched All-real,560,0.9357037146272995,0.9809821503746737
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1038,Base,280,0.925351806610079,0.9808032331396818
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1038,Hybrid,560,0.9242098609355247,0.9814925907215627
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1038,Matched All-real,560,0.9357226723951835,0.9813347225730403
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1039,Base,280,0.9322645327519311,0.981534688894502
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1039,Hybrid,560,0.9311111228149638,0.982518733686958
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1039,Matched All-real,560,0.9357226723951835,0.981766228845668
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1040,Base,280,0.9299573491980095,0.9812452639555443
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1040,Hybrid,560,0.9253384337141495,0.9820135556116865
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1040,Matched All-real,560,0.9299787403492374,0.98225035783447
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1041,Base,280,0.9253242689538415,0.9808505935842384
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1041,Hybrid,560,0.9229599701460653,0.9811137071651089
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1041,Matched All-real,560,0.928803202697008,0.9815925738822935
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1042,Base,280,0.9311111228149638,0.9817030815862592
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1042,Hybrid,560,0.9322645327519311,0.9822977182790267
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1042,Matched All-real,560,0.9334512305522222,0.9823819146249053
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1043,Base,280,0.9194599701273546,0.9813768207459795
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1043,Hybrid,560,0.9183407524648004,0.9817557043024333
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1043,Matched All-real,560,0.9310998735777497,0.9801401869158879
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1044,Base,280,0.9229949005078404,0.9804980213858718
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1044,Hybrid,560,0.9218370198518362,0.9812768375852489
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1044,Matched All-real,560,0.927635712676791,0.981776753388903
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1045,Base,280,0.9287776911240857,0.9813452471162752
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1045,Hybrid,560,0.9264801972893788,0.9819030479077208
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1045,Matched All-real,560,0.9334175882043181,0.981571524795824
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1046,Base,280,0.9287908243636958,0.9813715584743622
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1046,Hybrid,560,0.927635712676791,0.9811768544245179
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1046,Matched All-real,560,0.936874719483415,0.9818872610928686
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1047,Base,280,0.9265065318162664,0.9813926075608318
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1047,Hybrid,560,0.925351806610079,0.9816346720552328
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1047,Matched All-real,560,0.9299971705127952,0.982187210575061
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1048,Base,280,0.9287776911240857,0.9827660604529765
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1048,Hybrid,560,0.9299329916394325,0.9828713058853246
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1048,Matched All-real,560,0.9310998735777497,0.982787109539446
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1049,Base,280,0.9138184362658346,0.979298223457102
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1049,Hybrid,560,0.9218996138182469,0.9805085459291067
+sentiment_gemma_original_qwen_lr,sentiment,en_binary_sst2,1049,Matched All-real,560,0.9288358158660959,0.9810663467205524
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1000,Base,280,0.8575917574243652,0.9325632820958837
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1000,Hybrid,560,0.8557712298115558,0.9312352285519871
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1000,Matched All-real,560,0.8570400160661382,0.9321472384537177
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1001,Base,280,0.8558168648134843,0.9304261573692225
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1001,Hybrid,560,0.855337654045619,0.9305967403424085
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1001,Matched All-real,560,0.8594788924365969,0.933562794488971
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1002,Base,280,0.8547510015403783,0.9304272249805625
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1002,Hybrid,560,0.8537896051013729,0.9301511183698465
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1002,Matched All-real,560,0.8541006147266528,0.9304167437353806
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1003,Base,280,0.8569546345646168,0.9333600399391236
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1003,Hybrid,560,0.8555902399241937,0.9328678228108012
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1003,Matched All-real,560,0.8601732121447077,0.93417601312094
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1004,Base,280,0.8536164189467916,0.9312531747488458
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1004,Hybrid,560,0.8512623366780256,0.9297461272531891
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1004,Matched All-real,560,0.8582034933880057,0.9334459751570472
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1005,Base,280,0.8587210259532527,0.9335485091497173
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1005,Hybrid,560,0.856734389254898,0.932392066217379
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1005,Matched All-real,560,0.8599307756725936,0.9341044981510354
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1006,Base,280,0.8512081780033646,0.929314022805797
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1006,Hybrid,560,0.8525511123931477,0.9298172624799028
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1006,Matched All-real,560,0.8598553047785443,0.9327784232690293
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1007,Base,280,0.85404086641114,0.9290833238205998
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1007,Hybrid,560,0.852952910099673,0.9290259859298284
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1007,Matched All-real,560,0.8571810948979242,0.9320036772065488
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1008,Base,280,0.8502059884420281,0.9273019968119494
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1008,Hybrid,560,0.8499679086584014,0.9272114996791121
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1008,Matched All-real,560,0.8556559077274681,0.9313959248778828
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1009,Base,280,0.8546698398592135,0.9318129062192444
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1009,Hybrid,560,0.8525948956423486,0.9311309207588851
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1009,Matched All-real,560,0.8568948421022982,0.9328430062601565
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1010,Base,280,0.8585326085359151,0.9315635665068784
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1010,Hybrid,560,0.8572058280303074,0.9311772727457602
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1010,Matched All-real,560,0.8583666056649025,0.9324537261852592
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1011,Base,280,0.8504803828197803,0.9280517780906972
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1011,Hybrid,560,0.8496743670427543,0.9272491542144794
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1011,Matched All-real,560,0.8547950854570027,0.9306298079797576
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1012,Base,280,0.852968502220504,0.9308756100845014
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1012,Hybrid,560,0.851949636773792,0.9305756595986832
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1012,Matched All-real,560,0.8552823033524001,0.9311395266056756
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1013,Base,280,0.8519769256592453,0.9293357347893006
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1013,Hybrid,560,0.8512250140278317,0.9285920060840454
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1013,Matched All-real,560,0.856754474565372,0.9327094082751324
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1014,Base,280,0.8577295238399797,0.9314955708236525
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1014,Hybrid,560,0.8532311016101115,0.9309400448425409
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1014,Matched All-real,560,0.8586384817279367,0.9329563862513365
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1015,Base,280,0.849020405614815,0.9275983996969037
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1015,Hybrid,560,0.8503065369303078,0.9279948765714876
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1015,Matched All-real,560,0.8553470678524958,0.9316600779057813
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1016,Base,280,0.8529901461887147,0.9280198513484619
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1016,Hybrid,560,0.8505285145483599,0.928127445252599
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1016,Matched All-real,560,0.8559611511034633,0.9308770407836292
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1017,Base,280,0.8467086089866445,0.9284969903403426
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1017,Hybrid,560,0.8478313106573203,0.9280406372915522
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1017,Matched All-real,560,0.8562262529730555,0.9317304403217903
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1018,Base,280,0.852214368596043,0.9296371326296499
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1018,Hybrid,560,0.8520715937077665,0.9295302349213631
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1018,Matched All-real,560,0.8539323260399786,0.9307135063770424
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1019,Base,280,0.8512867030359665,0.9309096220832073
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1019,Hybrid,560,0.8516554978899106,0.9296574988565816
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1019,Matched All-real,560,0.8540210934479406,0.9311733370740035
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1020,Base,280,0.856077559743188,0.9331061366463035
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1020,Hybrid,560,0.8531706404916741,0.9316503811300865
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1020,Matched All-real,560,0.8587511072308447,0.9338665557310224
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1021,Base,280,0.8526059634878005,0.9291195743054844
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1021,Hybrid,560,0.8525298894812015,0.9290076733141012
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1021,Matched All-real,560,0.858405624283564,0.9327125178388944
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1022,Base,280,0.8534199139396026,0.9287986979711896
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1022,Hybrid,560,0.8523142067375792,0.9287025546566957
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1022,Matched All-real,560,0.8562020346809299,0.93182239313686
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1023,Base,280,0.853789767468295,0.9293180600755128
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1023,Hybrid,560,0.8517665907342566,0.9296647339636956
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1023,Matched All-real,560,0.8558331287834964,0.9306306457465343
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1024,Base,280,0.8489706317196053,0.9273229110016437
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1024,Hybrid,560,0.8494266409528479,0.9276617268706357
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1024,Matched All-real,560,0.8569327047412789,0.9328215541009415
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1025,Base,280,0.85853987788487,0.932673612482753
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1025,Hybrid,560,0.8540511986659294,0.930615869072889
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1025,Matched All-real,560,0.8573031179069168,0.932253125179035
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1026,Base,280,0.8533678724832245,0.9302809638925484
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1026,Hybrid,560,0.8527492527562341,0.9301439632086675
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1026,Matched All-real,560,0.8561942483596277,0.9325934250444451
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1027,Base,280,0.8558098779706771,0.9298128104906496
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1027,Hybrid,560,0.8554272752650889,0.9295657758860749
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1027,Matched All-real,560,0.8582834929415224,0.9324031970232826
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1028,Base,280,0.8500167027922594,0.9274202701605652
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1028,Hybrid,560,0.8487089514662394,0.9267594353966242
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1028,Matched All-real,560,0.8566502423280424,0.9318097933244018
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1029,Base,280,0.8552948292060827,0.9310170144569665
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1029,Hybrid,560,0.854124623502918,0.9303341745744271
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1029,Matched All-real,560,0.8572102673269248,0.9326164694601982
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1030,Base,280,0.8537290563979818,0.9308082023370057
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1030,Hybrid,560,0.8532177733747067,0.9306355441005911
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1030,Matched All-real,560,0.8559156911425712,0.9322738644869969
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1031,Base,280,0.8539386127848507,0.9299383206119199
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1031,Hybrid,560,0.8516105881043486,0.9285300779641753
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1031,Matched All-real,560,0.8564666176296918,0.9318524411496238
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1032,Base,280,0.8520769781478401,0.9290144170868233
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1032,Hybrid,560,0.8487462532149581,0.9282573873766387
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1032,Matched All-real,560,0.8587446176355998,0.9336438413460795
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1033,Base,280,0.8535289496981261,0.9292880004039669
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1033,Hybrid,560,0.8506533412425057,0.9279440426156336
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1033,Matched All-real,560,0.8546660230908982,0.9300904144221054
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1034,Base,280,0.8539667828839157,0.9305726766159849
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1034,Hybrid,560,0.8537696389527815,0.930239280415167
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1034,Matched All-real,560,0.8584952200630995,0.9331383348716097
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1035,Base,280,0.8559539548109907,0.9313147514397107
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1035,Hybrid,560,0.8547523267611926,0.9306235255617018
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1035,Matched All-real,560,0.8569789205625391,0.9323957387337666
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1036,Base,280,0.8468558649687536,0.9268646159328499
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1036,Hybrid,560,0.8477645875708881,0.9263188899909324
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1036,Matched All-real,560,0.8557488238960794,0.9323116256169441
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1037,Base,280,0.8542627965354801,0.9298303203159466
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1037,Hybrid,560,0.853339566370042,0.9294941942945578
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1037,Matched All-real,560,0.8564795476832134,0.9322585981444994
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1038,Base,280,0.8527292601733494,0.9298901082165164
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1038,Hybrid,560,0.8514688434922695,0.9290245269165155
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1038,Matched All-real,560,0.8564240864954671,0.9319526866899055
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1039,Base,280,0.8514666102116235,0.9302827276997384
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1039,Hybrid,560,0.8542149168362475,0.9308376007890478
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1039,Matched All-real,560,0.8562511486100657,0.9330367935409655
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1040,Base,280,0.8535814309432415,0.9291244859838635
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1040,Hybrid,560,0.8519474954169801,0.9292822193135448
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1040,Matched All-real,560,0.8562270490199816,0.9316627910709491
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1041,Base,280,0.8559571876225998,0.9313145499093328
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1041,Hybrid,560,0.8532385969243476,0.9301162419557192
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1041,Matched All-real,560,0.8594268568228405,0.9330963699179157
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1042,Base,280,0.8513068917531468,0.9274905276475345
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1042,Hybrid,560,0.8523248564332585,0.9282482752055934
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1042,Matched All-real,560,0.8572616332916434,0.9321243222845688
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1043,Base,280,0.8474441716170323,0.9281759641074198
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1043,Hybrid,560,0.8480498984112856,0.9275168698331044
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1043,Matched All-real,560,0.8574981364571488,0.9321532477231622
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1044,Base,280,0.8517964293501106,0.9288685457352424
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1044,Hybrid,560,0.853102367464057,0.9298368059299204
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1044,Matched All-real,560,0.8581574439292425,0.9323622730322831
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1045,Base,280,0.8497583204687018,0.9282931631825345
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1045,Hybrid,560,0.8497631527347431,0.9274649865868543
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1045,Matched All-real,560,0.855991776094825,0.9319674117318014
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1046,Base,280,0.8555839150798663,0.9303904748335843
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1046,Hybrid,560,0.8524489334552319,0.9288590804696508
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1046,Matched All-real,560,0.8558848923282492,0.9321265940815538
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1047,Base,280,0.8509366831280851,0.927297416576092
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1047,Hybrid,560,0.8500399820159634,0.9262985903856132
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1047,Matched All-real,560,0.8545339125257967,0.9304618282460788
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1048,Base,280,0.8510008758746893,0.929713779129255
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1048,Hybrid,560,0.8489603132970507,0.9285047234440099
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1048,Matched All-real,560,0.857142188799729,0.9328898679023672
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1049,Base,280,0.8496931446113813,0.9277056621585188
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1049,Hybrid,560,0.8481067423859963,0.9266523711343063
+sentiment_gemma_original_qwen_lr,sentiment,ko_binary_nsmc,1049,Matched All-real,560,0.8548281973608793,0.9303984944101852
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1000,Base,280,0.8487640778119059,0.9293560506465203
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1000,Hybrid,560,0.8503276758732167,0.9302996838974683
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1000,Matched All-real,560,0.8594276143399882,0.9356605724903154
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1001,Base,280,0.8564734864526624,0.9274658626794511
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1001,Hybrid,560,0.8590277818420174,0.9312374742180699
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1001,Matched All-real,560,0.8550781224342643,0.9307145319520645
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1002,Base,280,0.8440871974336541,0.9242171934068373
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1002,Hybrid,560,0.8491849570016686,0.92651054356781
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1002,Matched All-real,560,0.86803683737646,0.9378458284398792
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1003,Base,280,0.8578709128323511,0.9324469607997803
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1003,Hybrid,560,0.8552437729125981,0.9344189497916995
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1003,Matched All-real,560,0.8586307950436376,0.9317019871806107
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1004,Base,280,0.8492271799358413,0.9266536953612975
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1004,Hybrid,560,0.8560804899387576,0.9299023646339112
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1004,Matched All-real,560,0.8527337169106288,0.9305859874844431
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1005,Base,280,0.8522989043370479,0.9253448789636979
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1005,Hybrid,560,0.8511077466454837,0.9268728052492886
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1005,Matched All-real,560,0.8580943841607349,0.9345737874458798
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1006,Base,280,0.856793174239776,0.9319094112079089
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1006,Hybrid,560,0.8555395531825207,0.9323563953794106
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1006,Matched All-real,560,0.8553213966958708,0.9343955780703139
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1007,Base,280,0.8482179152122176,0.9281436425996366
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1007,Hybrid,560,0.8549447354599584,0.9307291392779307
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1007,Matched All-real,560,0.8559140915142597,0.9339894944112372
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1008,Base,280,0.8448335613315093,0.9241733714292392
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1008,Hybrid,560,0.8528469491772244,0.927395747515294
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1008,Matched All-real,560,0.8494247852046017,0.9327361858519283
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1009,Base,280,0.8570534468404452,0.9320584059317428
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1009,Hybrid,560,0.8503276758732167,0.9326047199191339
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1009,Matched All-real,560,0.8549447354599584,0.9319678405113733
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1010,Base,280,0.8439069324737813,0.9290639041291988
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1010,Hybrid,560,0.8556384379113646,0.9314215265239822
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1010,Matched All-real,560,0.8551626853272123,0.9317516520885555
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1011,Base,280,0.8504826678367705,0.9271298941845314
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1011,Hybrid,560,0.8506294822114289,0.9266303236399119
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1011,Matched All-real,560,0.8576293999486138,0.9319649190462002
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1012,Base,280,0.8529180591297058,0.9251725125184782
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1012,Hybrid,560,0.8502616825016076,0.9258911929510889
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1012,Matched All-real,560,0.8558703271028038,0.9312170239618573
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1013,Base,280,0.8539685463966967,0.928903223544672
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1013,Hybrid,560,0.8521510882733354,0.9281290352737707
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1013,Matched All-real,560,0.8607942079859587,0.9348630124980281
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1014,Base,280,0.847195677204795,0.9256078108292871
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1014,Hybrid,560,0.8513668546074995,0.92871040684324
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1014,Matched All-real,560,0.8575861565420562,0.9320759347227822
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1015,Base,280,0.8524834746455516,0.9274308050973723
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1015,Hybrid,560,0.8454290859341199,0.9264988577071173
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1015,Matched All-real,560,0.854898522131492,0.9317428876930357
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1016,Base,280,0.8590277818420174,0.930761275394836
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1016,Hybrid,560,0.854898522131492,0.9314186050588091
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1016,Matched All-real,560,0.8569172289229545,0.9327624790384874
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1017,Base,280,0.851207804003307,0.9309482491659218
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1017,Hybrid,560,0.8555003729374739,0.9311615161235662
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1017,Matched All-real,560,0.8610600168173218,0.9371271480072685
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1018,Base,280,0.8584656693013406,0.9343897351399675
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1018,Hybrid,560,0.8578709128323511,0.9333380076776105
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1018,Matched All-real,560,0.8575861565420562,0.9361017137314707
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1019,Base,280,0.8484765388765697,0.929490438044488
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1019,Hybrid,560,0.8500590564033166,0.9288827732884596
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1019,Matched All-real,560,0.8590277818420174,0.9327624790384874
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1020,Base,280,0.8520096187377555,0.9322044791904035
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1020,Hybrid,560,0.862205828473116,0.9331627197672177
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1020,Matched All-real,560,0.8615015890755422,0.9378808860219576
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1021,Base,280,0.8442786736284552,0.929706626467306
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1021,Hybrid,560,0.8504826678367705,0.9314127621284627
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1021,Matched All-real,560,0.8541544976635513,0.9345445727941478
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1022,Base,280,0.8401711276875823,0.9251345334712265
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1022,Hybrid,560,0.8481722634323472,0.928190386042408
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1022,Matched All-real,560,0.8603443611643208,0.9341443320654175
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1023,Base,280,0.8562331033839843,0.9283014017189901
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1023,Hybrid,560,0.8578709128323511,0.9302704692457361
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1023,Matched All-real,560,0.85881815778723,0.9347782900080048
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1024,Base,280,0.8643647022379641,0.9319181756034287
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1024,Hybrid,560,0.8668755724259016,0.9338463426177497
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1024,Matched All-real,560,0.8671610427557273,0.9373696296166454
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1025,Base,280,0.852438668224299,0.9305246367158059
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1025,Hybrid,560,0.8585082260452876,0.9328033795509123
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1025,Matched All-real,560,0.8514159614818129,0.93432838437133
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1026,Base,280,0.84337681124584,0.9246291199962605
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1026,Hybrid,560,0.8465028634067059,0.9265426796847156
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1026,Matched All-real,560,0.8468869327898423,0.9327887722250463
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1027,Base,280,0.8468322133495814,0.9278631819430081
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1027,Hybrid,560,0.8543877981264552,0.929367736507213
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1027,Matched All-real,560,0.8554887904982782,0.9339982588067568
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1028,Base,280,0.8580943841607349,0.92993742221599
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1028,Hybrid,560,0.8543877981264552,0.9300659666836113
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1028,Matched All-real,560,0.861896804591005,0.9342699550678657
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1029,Base,280,0.8503276758732167,0.9294729092534488
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1029,Hybrid,560,0.8515995817472626,0.9330487826254624
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1029,Matched All-real,560,0.8560804899387576,0.9342699550678657
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1030,Base,280,0.8488144950930507,0.9260168159535371
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1030,Hybrid,560,0.8479804923831264,0.9229054555440644
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1030,Matched All-real,560,0.852527392982026,0.9285497262587133
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1031,Base,280,0.850812595226003,0.9306940816958521
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1031,Hybrid,560,0.8496485523486268,0.9303931707830112
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1031,Matched All-real,560,0.8502616825016076,0.93237392417045
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1032,Base,280,0.8574970922246965,0.9289762601740024
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1032,Hybrid,560,0.8582400636429909,0.9292391920395917
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1032,Matched All-real,560,0.8587823707954294,0.9342115257644014
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1033,Base,280,0.844333839594503,0.9266478524309513
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1033,Hybrid,560,0.849386448918842,0.9293618935768666
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1033,Matched All-real,560,0.8508987643084678,0.933469473610405
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1034,Base,280,0.8511077466454837,0.9286636634004686
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1034,Hybrid,560,0.8553846153846154,0.9295780819996846
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1034,Matched All-real,560,0.8587756944688735,0.9359351902165974
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1035,Base,280,0.8468390923873585,0.9248716016056373
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1035,Hybrid,560,0.8547272727272728,0.9291836842013006
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1035,Matched All-real,560,0.8613320861598713,0.9350733579904994
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1036,Base,280,0.8532281051103721,0.9279420615026849
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1036,Hybrid,560,0.8590277818420174,0.9300396734970522
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1036,Matched All-real,560,0.8544842879455439,0.9300981028005165
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1037,Base,280,0.8520480474149038,0.925058575376723
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1037,Hybrid,560,0.8517745976424753,0.9253594862895639
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1037,Matched All-real,560,0.851214111877619,0.9293618935768667
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1038,Base,280,0.840084189834688,0.9269516848089654
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1038,Hybrid,560,0.8442360718325792,0.9254821878268391
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1038,Matched All-real,560,0.8566613658095446,0.9317691808795947
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1039,Base,280,0.8522989043370479,0.9285701765149258
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1039,Hybrid,560,0.8495464626132563,0.9279186897812991
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1039,Matched All-real,560,0.8604208981307587,0.9326514633619053
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1040,Base,280,0.8579446140579845,0.928204993368274
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1040,Hybrid,560,0.8564046160023744,0.9299987729846272
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1040,Matched All-real,560,0.8596201366062894,0.9342845623937318
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1041,Base,280,0.8534900966815882,0.9294232443455043
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1041,Hybrid,560,0.850812595226003,0.9311264585414877
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1041,Matched All-real,560,0.8542847221816952,0.9316873798547448
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1042,Base,280,0.8492685003236209,0.9250089104687782
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1042,Hybrid,560,0.8493870606879836,0.9276323861943241
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1042,Matched All-real,560,0.8628954154560624,0.9355407924182135
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1043,Base,280,0.8493870606879836,0.9274687841446242
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1043,Hybrid,560,0.8447878116011942,0.9279858834802831
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1043,Matched All-real,560,0.8596561247319847,0.93424658334648
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1044,Base,280,0.8527751256824515,0.9305450869720182
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1044,Hybrid,560,0.8603923535934943,0.9325696623370553
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1044,Matched All-real,560,0.8567501016565083,0.9328968664364553
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1045,Base,280,0.8587823707954294,0.9327800078295266
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1045,Hybrid,560,0.8569956440971578,0.9309599350266146
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1045,Matched All-real,560,0.8560804899387576,0.9320963849789947
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1046,Base,280,0.857366116047902,0.9319240185337752
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1046,Hybrid,560,0.8599425524615805,0.933016646508557
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1046,Matched All-real,560,0.8597590796353008,0.935163923410869
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1047,Base,280,0.8463615837120269,0.9275535066346473
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1047,Hybrid,560,0.8496982269324697,0.929572239069338
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1047,Matched All-real,560,0.8610600168173218,0.9341092744833388
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1048,Base,280,0.8492685003236209,0.9286578204701221
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1048,Hybrid,560,0.8546283142561045,0.9323622383097572
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1048,Matched All-real,560,0.8519354554400564,0.932289201680427
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1049,Base,280,0.8488639951355839,0.9294378516713703
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1049,Hybrid,560,0.8543263789220663,0.9303727205267986
+sentiment_gemma_original_qwen_lr,sentiment,bn_binary_cinexdrama,1049,Matched All-real,560,0.8594678008424639,0.9344510859086048
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1000,Base,280,0.7622654766217656,0.8569360357988944
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1000,Hybrid,560,0.7420180671937204,0.8641309116434148
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1000,Matched All-real,560,0.7901857372162349,0.8762832324295867
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1001,Base,280,0.7866759923063473,0.8604896025269808
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1001,Hybrid,560,0.7516757564604455,0.8576818460998509
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1001,Matched All-real,560,0.8098441345365053,0.8792226024392384
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1002,Base,280,0.7921978021978022,0.8672896376239361
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1002,Hybrid,560,0.7218470418470418,0.8686935158375011
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1002,Matched All-real,560,0.7850599013389712,0.873431604808283
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1003,Base,280,0.7888189046725632,0.877994209002369
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1003,Hybrid,560,0.7319115470022206,0.8711941739054138
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1003,Matched All-real,560,0.8052105355884426,0.8923400894972361
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1004,Base,280,0.7669977081741788,0.8595244362551548
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1004,Hybrid,560,0.762700228832952,0.8743090286917611
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1004,Matched All-real,560,0.7961341646486451,0.8780819513907169
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1005,Base,280,0.7615697310819263,0.8644380100026322
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1005,Hybrid,560,0.7579392921636512,0.8708432043520224
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1005,Matched All-real,560,0.8007661562648776,0.8825568131964551
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1006,Base,280,0.7534903289378992,0.8418443450030709
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1006,Hybrid,560,0.7356777960226236,0.8580328156532421
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1006,Matched All-real,560,0.8059796437659033,0.8772483987014127
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1007,Base,280,0.7644111935028248,0.8554444151969817
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1007,Hybrid,560,0.7216111215128254,0.8755374221286304
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1007,Matched All-real,560,0.8041232624715627,0.8759322628761955
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1008,Base,280,0.7525662797866932,0.8514082653329824
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1008,Hybrid,560,0.7478533084952768,0.8545231201193296
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1008,Matched All-real,560,0.7838742382452659,0.8796174431868035
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1009,Base,280,0.7602440185560391,0.8575063613231553
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1009,Hybrid,560,0.7298742825594369,0.8614547687988066
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1009,Matched All-real,560,0.7949206909094917,0.8742212863034131
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1010,Base,280,0.7886347886347886,0.8724664385364569
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1010,Hybrid,560,0.7469579646017699,0.8707115907695007
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1010,Matched All-real,560,0.8024459594462559,0.8785645345266299
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1011,Base,280,0.756,0.8572870053522857
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1011,Hybrid,560,0.73493934021622,0.8699657804685442
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1011,Matched All-real,560,0.7805050874104582,0.8737387031675001
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1012,Base,280,0.784513211812915,0.8645257523909801
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1012,Hybrid,560,0.7680250438156546,0.8619812231288936
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1012,Matched All-real,560,0.7992892866543827,0.8776871106431516
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1013,Base,280,0.7702034264749238,0.8521540756339387
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1013,Hybrid,560,0.7751943178772447,0.8614986399929806
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1013,Matched All-real,560,0.7886347886347886,0.8832148811090638
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1014,Base,280,0.7430610978097012,0.8392120733526367
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1014,Hybrid,560,0.7278710559553192,0.8485127665175045
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1014,Matched All-real,560,0.7876783849634528,0.8667631832938493
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1015,Base,280,0.7622654766217656,0.852066333245591
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1015,Hybrid,560,0.7495894909688013,0.8623321926822849
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1015,Matched All-real,560,0.7949206909094917,0.8841361761867158
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1016,Base,280,0.7568818859807165,0.8508379398087216
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1016,Hybrid,560,0.7197245518733497,0.8545231201193296
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1016,Matched All-real,560,0.7693976616517461,0.8690444853908923
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1017,Base,280,0.7706361143059365,0.8672457664297623
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1017,Hybrid,560,0.7704570333880678,0.8792664736334123
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1017,Matched All-real,560,0.7823557180340107,0.8795735719926296
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1018,Base,280,0.7356666666666667,0.842721768886549
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1018,Hybrid,560,0.689581791265729,0.8503992278669825
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1018,Matched All-real,560,0.7725278582083004,0.8626831622356761
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1019,Base,280,0.7644111935028248,0.8549618320610688
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1019,Hybrid,560,0.7336065573770492,0.8489953496534176
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1019,Matched All-real,560,0.7881967791360325,0.879836799157673
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1020,Base,280,0.753344116104214,0.8561463543037642
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1020,Hybrid,560,0.7733108108108109,0.8636044573133281
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1020,Matched All-real,560,0.7737191236798464,0.872027726594718
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1021,Base,280,0.7472677595628415,0.8504869702553304
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1021,Hybrid,560,0.7319115470022206,0.8500043871194174
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1021,Matched All-real,560,0.7859085724313416,0.8773361410897604
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1022,Base,280,0.7565841979249801,0.8657541458278494
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1022,Hybrid,560,0.7460214655810511,0.8625954198473283
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1022,Matched All-real,560,0.7949206909094917,0.8850136000701939
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1023,Base,280,0.7602440185560391,0.8629902605948933
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1023,Hybrid,560,0.7308278604912377,0.8597876634201983
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1023,Matched All-real,560,0.7921978021978022,0.879924541546021
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1024,Base,280,0.7600104913446406,0.8560586119154163
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1024,Hybrid,560,0.7519653022499322,0.8669386680705449
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1024,Matched All-real,560,0.7823557180340107,0.8692638413617617
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1025,Base,280,0.7649092670894997,0.8461437220321137
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1025,Hybrid,560,0.7351385489855531,0.8498289023427218
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1025,Matched All-real,560,0.779218215319821,0.8750987101868912
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1026,Base,280,0.754577220268736,0.8507063262261998
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1026,Hybrid,560,0.7265815602836879,0.8564534526629816
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1026,Matched All-real,560,0.7984936575052854,0.8757567780994999
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1027,Base,280,0.7498226478673407,0.865447047468632
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1027,Hybrid,560,0.7439067873615441,0.8633412301482847
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1027,Matched All-real,560,0.7957492123088408,0.8837852066333245
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1028,Base,280,0.7554606916876138,0.844652101430201
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1028,Hybrid,560,0.7418018178577794,0.8485127665175046
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1028,Matched All-real,560,0.7890524651714257,0.8704922347986312
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1029,Base,280,0.7590917687369978,0.8666315697113276
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1029,Hybrid,560,0.7379725085910653,0.8770290427305432
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1029,Matched All-real,560,0.8039150483284562,0.8854523120119329
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1030,Base,280,0.7756589708965957,0.8568482934105466
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1030,Hybrid,560,0.7473475177304965,0.8581205580415898
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1030,Matched All-real,560,0.798901098901099,0.8750548389927175
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1031,Base,280,0.7581923890063424,0.8538211810125471
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1031,Hybrid,560,0.7764156582345578,0.8666754409055014
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1031,Matched All-real,560,0.7644111935028248,0.88216197244889
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1032,Base,280,0.7683820244795855,0.8587786259541984
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1032,Hybrid,560,0.7504091653027822,0.8626831622356761
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1032,Matched All-real,560,0.7850599013389712,0.8679038343423707
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1033,Base,280,0.753344116104214,0.8366675440905502
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1033,Hybrid,560,0.6888789556327293,0.8462753356146354
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1033,Matched All-real,560,0.7725278582083004,0.8642186540317628
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1034,Base,280,0.7586813186813186,0.855268930420286
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1034,Hybrid,560,0.7510204081632653,0.8579889444590681
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1034,Matched All-real,560,0.779988680375989,0.8793103448275862
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1035,Base,280,0.7706361143059365,0.8602702465561113
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1035,Hybrid,560,0.7326419325827347,0.8660173729928928
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1035,Matched All-real,560,0.7752147752147752,0.875712906905326
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1036,Base,280,0.7534903289378992,0.8596560498376766
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1036,Hybrid,560,0.7410112947690446,0.8678160919540231
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1036,Matched All-real,560,0.778343023255814,0.8749232254101957
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1037,Base,280,0.7702034264749238,0.8623321926822848
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1037,Hybrid,560,0.7460214655810511,0.8676406071773274
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1037,Matched All-real,560,0.7890524651714257,0.8783013073615864
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1038,Base,280,0.7564670494941208,0.8525489163815038
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1038,Hybrid,560,0.7373776908023484,0.8587347547600246
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1038,Matched All-real,560,0.8091427065836709,0.8818548740896727
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1039,Base,280,0.7760817874009709,0.8498727735368957
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1039,Hybrid,560,0.7287219485495348,0.8536456962358515
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1039,Matched All-real,560,0.7890524651714257,0.8704922347986311
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1040,Base,280,0.7800096170659205,0.8555321575853293
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1040,Hybrid,560,0.7519653022499322,0.8655786610511539
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1040,Matched All-real,560,0.7886347886347886,0.8854523120119329
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1041,Base,280,0.7404255319148936,0.868254803895762
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1041,Hybrid,560,0.736946386946387,0.8664122137404581
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1041,Matched All-real,560,0.8091427065836709,0.8804509958761078
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1042,Base,280,0.7737513977923185,0.8726857945073264
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1042,Hybrid,560,0.7561441929989223,0.8793103448275861
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1042,Matched All-real,560,0.7890524651714257,0.8784329209441081
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1043,Base,280,0.7680250438156546,0.8613670264104589
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1043,Hybrid,560,0.7509230397625977,0.8635167149249802
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1043,Matched All-real,560,0.7773821109439971,0.8736070895849785
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1044,Base,280,0.765877916096519,0.8496095463718523
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1044,Hybrid,560,0.7001965923984272,0.8531631130999386
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1044,Matched All-real,560,0.7773821109439971,0.8703606212161095
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1045,Base,280,0.7540983606557377,0.8644818811968062
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1045,Hybrid,560,0.7278710559553192,0.8640431692550671
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1045,Matched All-real,560,0.7867582594413433,0.885452312011933
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1046,Base,280,0.7510204081632653,0.865008335526893
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1046,Hybrid,560,0.725735440096229,0.8750109677985435
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1046,Matched All-real,560,0.7984936575052854,0.8834342370799334
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1047,Base,280,0.7591471439852593,0.8669386680705449
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1047,Hybrid,560,0.7518023129204919,0.8728174080898482
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1047,Matched All-real,560,0.7846045197740112,0.8767219443713257
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1048,Base,280,0.7809997238331953,0.8676844783715013
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1048,Hybrid,560,0.725735440096229,0.8777748530314995
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1048,Matched All-real,560,0.7917767794221282,0.8829955251381943
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1049,Base,280,0.7664495222452807,0.8719838554005441
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1049,Hybrid,560,0.7539869100294985,0.8725541809248046
+sentiment_gemma_original_qwen_lr,sentiment,ha_binary_hausa_movie_review,1049,Matched All-real,560,0.7726640634560402,0.8846187593226287
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1000,Base,280,0.5474848994244687,0.818533732111759
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1000,Hybrid,560,0.6646313292127115,0.8183775649276899
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1000,Matched All-real,560,0.6164244711171771,0.8443249791777088
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1001,Base,280,0.5116055730390201,0.8234364352237451
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1001,Hybrid,560,0.6709143039184453,0.8270661391686227
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1001,Matched All-real,560,0.6164739577808422,0.835328802907549
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1002,Base,280,0.5122061876288163,0.8221161126675247
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1002,Hybrid,560,0.6590988358907868,0.8284574468085106
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1002,Matched All-real,560,0.6068839030801703,0.8340747330960855
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1003,Base,280,0.4925075056704281,0.8205639055046567
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1003,Hybrid,560,0.6617985435407869,0.8184627470280912
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1003,Matched All-real,560,0.6309529885331863,0.841286817596729
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1004,Base,280,0.5658389210995105,0.8225704172029985
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1004,Hybrid,560,0.6641368162901308,0.8217564549102747
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1004,Matched All-real,560,0.6190454928070462,0.8425598167638373
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1005,Base,280,0.5414805269186712,0.8282444915575073
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1005,Hybrid,560,0.6600184307530279,0.8236825168471265
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1005,Matched All-real,560,0.6173216050767071,0.8403924055425154
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1006,Base,280,0.47553443273782253,0.822068789278413
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1006,Hybrid,560,0.654451569132772,0.8205591731657453
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1006,Matched All-real,560,0.6103474810266005,0.8465207844324979
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1007,Base,280,0.5268083064305035,0.8441830090103732
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1007,Hybrid,560,0.6788374724851078,0.8376287196183841
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1007,Matched All-real,560,0.6077127302056728,0.842574013780571
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1008,Base,280,0.5148117654209791,0.8077629287499053
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1008,Hybrid,560,0.6650625437294152,0.8284337851139547
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1008,Matched All-real,560,0.6266837505749392,0.841982471416673
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1009,Base,280,0.4395688765367538,0.8140758688574241
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1009,Hybrid,560,0.665561417200914,0.8201237979859166
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1009,Matched All-real,560,0.5916161134210347,0.8458062012569092
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1010,Base,280,0.5367377938517179,0.8257268872567578
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1010,Hybrid,560,0.6459229919640477,0.819541720299841
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1010,Matched All-real,560,0.643176741002828,0.8456263723782842
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1011,Base,280,0.5167675350115487,0.8134653971378814
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1011,Hybrid,560,0.665990971384512,0.8193950177935942
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1011,Matched All-real,560,0.6224621251585526,0.8361569622170062
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1012,Base,280,0.49584027871634306,0.8169673279321572
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1012,Hybrid,560,0.6581819316975713,0.8319688422806089
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1012,Matched All-real,560,0.6155769124864618,0.823952260165064
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1013,Base,280,0.5428414144466992,0.8141089952298024
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1013,Hybrid,560,0.6681200660914265,0.8241084273491329
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1013,Matched All-real,560,0.6292047538734628,0.8473158173695767
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1014,Base,280,0.5024456359400203,0.8387171575679564
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1014,Hybrid,560,0.6609407415434242,0.8378984629363216
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1014,Matched All-real,560,0.6224621251585526,0.8532123116529113
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1015,Base,280,0.5268083064305035,0.8283864617248429
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1015,Hybrid,560,0.6724142219348099,0.8320208980086317
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1015,Matched All-real,560,0.6024025605704562,0.8440031801317482
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1016,Base,280,0.4250707629679102,0.8372454001665783
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1016,Hybrid,560,0.643811955421766,0.8360954418111608
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1016,Matched All-real,560,0.5813738930994938,0.8478742333610964
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1017,Base,280,0.527449976216035,0.8133944120542137
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1017,Hybrid,560,0.6690488125294127,0.819721549178466
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1017,Matched All-real,560,0.6147319347319347,0.8454323464829256
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1018,Base,280,0.49915292153151786,0.8471312561520407
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1018,Hybrid,560,0.6705342102655569,0.8399806920572424
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1018,Matched All-real,560,0.6042411614464309,0.8410691300068145
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1019,Base,280,0.5458672547475026,0.8211128568183539
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1019,Hybrid,560,0.6664060508200901,0.8234458999015674
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1019,Matched All-real,560,0.6058902574075574,0.8398245248731734
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1020,Base,280,0.4508668043999353,0.8278659044446127
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1020,Hybrid,560,0.6641853277487503,0.8357641780873779
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1020,Matched All-real,560,0.601358323770666,0.8379173922919663
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1021,Base,280,0.570220717861928,0.8428721511319754
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1021,Hybrid,560,0.6775301242429919,0.8334264026652534
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1021,Matched All-real,560,0.6233226371061844,0.8538985007950328
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1022,Base,280,0.5541316082552235,0.7887767850382372
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1022,Hybrid,560,0.6714728299738283,0.8108484137199969
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1022,Matched All-real,560,0.6155769124864618,0.835305141212993
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1023,Base,280,0.4288282146459792,0.8057327553570077
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1023,Hybrid,560,0.6322984867885934,0.8223479972741727
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1023,Matched All-real,560,0.6111842989649146,0.8482906791852804
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1024,Base,280,0.49802552573519143,0.8061160748088135
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1024,Hybrid,560,0.6725672347792163,0.8157889755432726
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1024,Matched All-real,560,0.6068839030801703,0.8374772847732264
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1025,Base,280,0.42128851540616247,0.8393323616264102
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1025,Hybrid,560,0.6674299139540764,0.8367437722419928
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1025,Matched All-real,560,0.6093779542446587,0.8461658590141592
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1026,Base,280,0.4325611356127788,0.81417998031347
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1026,Hybrid,560,0.654451569132772,0.8280078746119481
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1026,Matched All-real,560,0.5877098816405175,0.8490383887332476
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1027,Base,280,0.4508668043999353,0.8470508063905504
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1027,Hybrid,560,0.6637039806226002,0.840950821534035
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1027,Matched All-real,560,0.6147319347319347,0.8428532217763308
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1028,Base,280,0.5148117654209791,0.7934144771711971
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1028,Hybrid,560,0.6738396521992568,0.8154766411751344
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1028,Matched All-real,560,0.6164244711171771,0.8354329143635951
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1029,Base,280,0.5330018083182639,0.840099000530022
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1029,Hybrid,560,0.669202596659661,0.8347656545771183
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1029,Matched All-real,560,0.6325910118289563,0.8554507079579011
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1030,Base,280,0.5367377938517179,0.8355985462254865
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1030,Hybrid,560,0.6826732855756116,0.8371554857272658
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1030,Matched All-real,560,0.6241857915327302,0.8527343454228817
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1031,Base,280,0.4580262329993708,0.8194376088437949
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1031,Hybrid,560,0.6572676931704011,0.8244302263950936
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1031,Matched All-real,560,0.6067185683659087,0.8387266222457787
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1032,Base,280,0.4646312249504768,0.8142131066858483
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1032,Hybrid,560,0.6512069829274459,0.8284763761641554
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1032,Matched All-real,560,0.6121291717912731,0.8466722192776558
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1033,Base,280,0.545178264604811,0.798960778375104
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1033,Hybrid,560,0.6699802169986361,0.8199155750738245
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1033,Matched All-real,560,0.6340488103152919,0.8383196410994169
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1034,Base,280,0.5083803538062973,0.8166881199363974
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1034,Hybrid,560,0.6486243059248507,0.8287271901264481
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1034,Matched All-real,560,0.6085440719500796,0.8438754069811464
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1035,Base,280,0.5330018083182639,0.8269478306958431
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1035,Hybrid,560,0.6695983374151131,0.8303645793897176
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1035,Matched All-real,560,0.6224621251585526,0.8341977739077762
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1036,Base,280,0.5018720734307072,0.8286893314151587
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1036,Hybrid,560,0.6637039806226002,0.8238481487090179
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1036,Matched All-real,560,0.643176741002828,0.8424557053077912
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1037,Base,280,0.5849366684773705,0.7921840690542894
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1037,Hybrid,560,0.6664060508200901,0.8062249186037708
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1037,Matched All-real,560,0.6409524602121691,0.8323805557658817
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1038,Base,280,0.47207648652011214,0.842938403876732
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1038,Hybrid,560,0.6660516459688547,0.8336866813053683
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1038,Matched All-real,560,0.5841556564822461,0.843605663663209
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1039,Base,280,0.5391246779787862,0.8250406981146361
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1039,Hybrid,560,0.6727906240101362,0.8325603846445067
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1039,Matched All-real,560,0.589675104098181,0.8483380025743923
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1040,Base,280,0.4325611356127788,0.830269932611494
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1040,Hybrid,560,0.6566769235662206,0.8352956765351708
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1040,Matched All-real,560,0.5869226821905253,0.8542155675020823
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1041,Base,280,0.5458672547475026,0.8067312788672674
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1041,Hybrid,560,0.665990971384512,0.8330146891799803
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1041,Matched All-real,560,0.6325910118289563,0.8323568940713257
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1042,Base,280,0.4544579061820441,0.8197688725675778
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1042,Hybrid,560,0.6510135135135136,0.8251921329597941
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1042,Matched All-real,560,0.6216117216117216,0.8395453168774135
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1043,Base,280,0.4650955073158431,0.816475164685394
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1043,Hybrid,560,0.6669221243486998,0.8307053077913229
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1043,Matched All-real,560,0.6093779542446587,0.8410076096009692
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1044,Base,280,0.46111852224012445,0.8187845460740516
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1044,Hybrid,560,0.6595355805243446,0.823852881047929
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1044,Matched All-real,560,0.6005413766434649,0.8389821685469826
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1045,Base,280,0.5877098816405175,0.8109619898538654
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1045,Hybrid,560,0.6822959040671469,0.8226414022866662
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1045,Matched All-real,560,0.61562886045554,0.8416559400318013
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1046,Base,280,0.49915292153151786,0.801284356780495
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1046,Hybrid,560,0.6646313292127115,0.8229490043158931
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1046,Matched All-real,560,0.6147319347319347,0.8305917316574544
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1047,Base,280,0.4650955073158431,0.8252773150601953
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1047,Hybrid,560,0.6651170842251038,0.832285908987658
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1047,Matched All-real,560,0.6224621251585526,0.8470176800181721
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1048,Base,280,0.5360719870570474,0.8272932914363595
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1048,Hybrid,560,0.6595677208342142,0.8266023699553268
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1048,Matched All-real,560,0.6292047538734628,0.8435110168849853
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1049,Base,280,0.4715910826080318,0.8038445521314455
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1049,Hybrid,560,0.6614066304551414,0.8130110926024077
+sentiment_gemma_original_qwen_lr,sentiment,ml_binary_dravidian_codemix,1049,Matched All-real,560,0.5970373536315654,0.8415754902703112

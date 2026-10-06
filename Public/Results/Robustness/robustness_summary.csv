@@ -1,0 +1,151 @@
+arm,cell_id,comparison,metric,mean_difference,ci_lower,ci_upper
+sentiment_gemma_original_qwen_lr,bn_binary_cinexdrama,Hybrid - Base,macro_f1,0.0020861240247175327,0.0008532778357163807,0.0032855899817815005
+sentiment_gemma_original_qwen_lr,bn_binary_cinexdrama,Hybrid - Base,auroc,0.0012484589271211366,0.0008084234605339513,0.0016765149257655897
+sentiment_gemma_original_qwen_lr,bn_binary_cinexdrama,Matched All-real - Base,macro_f1,0.005846070607029641,0.004233821509439297,0.0075385134844858995
+sentiment_gemma_original_qwen_lr,bn_binary_cinexdrama,Matched All-real - Base,auroc,0.004988343353958886,0.004219393270112826,0.0057816964363967835
+sentiment_gemma_original_qwen_lr,bn_binary_cinexdrama,Matched All-real - Hybrid,macro_f1,0.003759946582312108,0.002264402805783917,0.0052681916656627786
+sentiment_gemma_original_qwen_lr,bn_binary_cinexdrama,Matched All-real - Hybrid,auroc,0.00373988442683775,0.0030097883690628404,0.004469904526518148
+sentiment_gemma_original_qwen_lr,en_binary_sst2,Hybrid - Base,macro_f1,0.000115364021621851,-0.0006703725322776687,0.0008808225387422888
+sentiment_gemma_original_qwen_lr,en_binary_sst2,Hybrid - Base,auroc,0.0005895849120148045,0.00048560242485476293,0.0006916729813925775
+sentiment_gemma_original_qwen_lr,en_binary_sst2,Matched All-real - Base,macro_f1,0.004612498803013347,0.0031550239844010484,0.006042310831323465
+sentiment_gemma_original_qwen_lr,en_binary_sst2,Matched All-real - Base,auroc,0.0006313673486570637,0.00043034594173613043,0.0008374379051948828
+sentiment_gemma_original_qwen_lr,en_binary_sst2,Matched All-real - Hybrid,macro_f1,0.0044971347813914965,0.003065318799702896,0.0058980902337179225
+sentiment_gemma_original_qwen_lr,en_binary_sst2,Matched All-real - Hybrid,auroc,4.178243664225922e-05,-0.00012882304033003664,0.0002131325250484223
+sentiment_gemma_original_qwen_lr,ha_binary_hausa_movie_review,Hybrid - Base,macro_f1,-0.022882383173885454,-0.028396419783290352,-0.01760358585839922
+sentiment_gemma_original_qwen_lr,ha_binary_hausa_movie_review,Hybrid - Base,auroc,0.0051496007721330206,0.0035474028253049323,0.0067412915679564665
+sentiment_gemma_original_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Base,macro_f1,0.025828022947619832,0.021823712459080404,0.030043880290788794
+sentiment_gemma_original_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Base,auroc,0.019376151618847058,0.01747383083267527,0.021384596823725555
+sentiment_gemma_original_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,macro_f1,0.04871040612150528,0.04294956865515579,0.054457660868141466
+sentiment_gemma_original_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,auroc,0.014226550846714038,0.012073352636658796,0.01638428972536631
+sentiment_gemma_original_qwen_lr,ko_binary_nsmc,Hybrid - Base,macro_f1,-0.0010184907574618696,-0.0014295694636328484,-0.0006025691937940441
+sentiment_gemma_original_qwen_lr,ko_binary_nsmc,Hybrid - Base,auroc,-0.0005054506122478153,-0.0006848861070723942,-0.0003267217187366232
+sentiment_gemma_original_qwen_lr,ko_binary_nsmc,Matched All-real - Base,macro_f1,0.0037556416586914374,0.0030367764830670843,0.004491403969317328
+sentiment_gemma_original_qwen_lr,ko_binary_nsmc,Matched All-real - Base,auroc,0.002370422254541915,0.001970433393342406,0.002758403741801551
+sentiment_gemma_original_qwen_lr,ko_binary_nsmc,Matched All-real - Hybrid,macro_f1,0.0047741324161533075,0.004196053999288075,0.005365850201035659
+sentiment_gemma_original_qwen_lr,ko_binary_nsmc,Matched All-real - Hybrid,auroc,0.0028758728667897305,0.002526083859435055,0.003226914232212212
+sentiment_gemma_original_qwen_lr,ml_binary_dravidian_codemix,Hybrid - Base,macro_f1,0.16059813542922993,0.14966903185706962,0.17149935680170955
+sentiment_gemma_original_qwen_lr,ml_binary_dravidian_codemix,Hybrid - Base,auroc,0.0057428825622775756,0.0032370972779586695,0.008324153384568782
+sentiment_gemma_original_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Base,macro_f1,0.11072370993596156,0.10036625071252275,0.12106524944082463
+sentiment_gemma_original_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Base,auroc,0.02132543348224426,0.01796840453925949,0.024674417449080027
+sentiment_gemma_original_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,macro_f1,-0.04987442549326838,-0.05429897049672104,-0.0452976784989193
+sentiment_gemma_original_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,auroc,0.01558255091996668,0.013310521882335126,0.01779627754221247
+sentiment_qwen38_qwen_lr,bn_binary_cinexdrama,Hybrid - Base,macro_f1,0.003534708598506775,0.0024577818963643565,0.004607209843720094
+sentiment_qwen38_qwen_lr,bn_binary_cinexdrama,Hybrid - Base,auroc,0.00236831495731739,0.0018282529053971464,0.0029214666339462446
+sentiment_qwen38_qwen_lr,bn_binary_cinexdrama,Matched All-real - Base,macro_f1,0.005846070607029641,0.004233821509439297,0.0075385134844858995
+sentiment_qwen38_qwen_lr,bn_binary_cinexdrama,Matched All-real - Base,auroc,0.004988343353958886,0.004219393270112826,0.0057816964363967835
+sentiment_qwen38_qwen_lr,bn_binary_cinexdrama,Matched All-real - Hybrid,macro_f1,0.002311362008522866,0.0006316915892894089,0.0040416321597349465
+sentiment_qwen38_qwen_lr,bn_binary_cinexdrama,Matched All-real - Hybrid,auroc,0.002620028396641496,0.0017438196404260498,0.003523763197718884
+sentiment_qwen38_qwen_lr,en_binary_sst2,Hybrid - Base,macro_f1,0.0013477455607653743,0.00042146554884644154,0.0023101123010876097
+sentiment_qwen38_qwen_lr,en_binary_sst2,Hybrid - Base,auroc,0.0006551528163677523,0.0005319104150879638,0.0007791319356739581
+sentiment_qwen38_qwen_lr,en_binary_sst2,Matched All-real - Base,macro_f1,0.004612498803013347,0.0031550239844010484,0.006042310831323465
+sentiment_qwen38_qwen_lr,en_binary_sst2,Matched All-real - Base,auroc,0.0006313673486570637,0.00043034594173613043,0.0008374379051948828
+sentiment_qwen38_qwen_lr,en_binary_sst2,Matched All-real - Hybrid,macro_f1,0.003264753242247973,0.0017634640002263044,0.004782294935422073
+sentiment_qwen38_qwen_lr,en_binary_sst2,Matched All-real - Hybrid,auroc,-2.378546771068857e-05,-0.0002211232844994374,0.00017545992253936843
+sentiment_qwen38_qwen_lr,ha_binary_hausa_movie_review,Hybrid - Base,macro_f1,-0.016345695827150838,-0.020432324759181136,-0.012419260752838404
+sentiment_qwen38_qwen_lr,ha_binary_hausa_movie_review,Hybrid - Base,auroc,0.0030139510397472822,0.0013862858647011953,0.00457495393524609
+sentiment_qwen38_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Base,macro_f1,0.025828022947619832,0.021823712459080404,0.030043880290788794
+sentiment_qwen38_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Base,auroc,0.019376151618847058,0.01747383083267527,0.021384596823725555
+sentiment_qwen38_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,macro_f1,0.04217371877477066,0.037480067248824606,0.04706582130129258
+sentiment_qwen38_qwen_lr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,auroc,0.016362200579099775,0.014104523120119342,0.0187549355093446
+sentiment_qwen38_qwen_lr,ko_binary_nsmc,Hybrid - Base,macro_f1,-0.0008895922041294813,-0.00135548207239807,-0.00041486589446101214
+sentiment_qwen38_qwen_lr,ko_binary_nsmc,Hybrid - Base,auroc,-0.00027379627312770663,-0.0005362080727332944,-1.2442312304136408e-05
+sentiment_qwen38_qwen_lr,ko_binary_nsmc,Matched All-real - Base,macro_f1,0.0037556416586914374,0.0030367764830670843,0.004491403969317328
+sentiment_qwen38_qwen_lr,ko_binary_nsmc,Matched All-real - Base,auroc,0.002370422254541915,0.001970433393342406,0.002758403741801551
+sentiment_qwen38_qwen_lr,ko_binary_nsmc,Matched All-real - Hybrid,macro_f1,0.004645233862820919,0.0040771675117892885,0.00520299456352729
+sentiment_qwen38_qwen_lr,ko_binary_nsmc,Matched All-real - Hybrid,auroc,0.002644218527669622,0.0022703956878414966,0.0030136519817409828
+sentiment_qwen38_qwen_lr,ml_binary_dravidian_codemix,Hybrid - Base,macro_f1,0.12105024954376359,0.11234259986354751,0.13002780189825341
+sentiment_qwen38_qwen_lr,ml_binary_dravidian_codemix,Hybrid - Base,auroc,0.002144033467100788,-2.8228401605200384e-05,0.004353472590293046
+sentiment_qwen38_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Base,macro_f1,0.11072370993596156,0.10036625071252275,0.12106524944082463
+sentiment_qwen38_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Base,auroc,0.02132543348224426,0.01796840453925949,0.024674417449080027
+sentiment_qwen38_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,macro_f1,-0.010326539607802046,-0.01509938673433869,-0.005253411553452106
+sentiment_qwen38_qwen_lr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,auroc,0.019181400015143468,0.01669479253426212,0.02164382761035812
+sentiment_gemma_bge_lr,bn_binary_cinexdrama,Hybrid - Base,macro_f1,-0.006930284733083325,-0.008342633479162923,-0.005469506834152957
+sentiment_gemma_bge_lr,bn_binary_cinexdrama,Hybrid - Base,auroc,-0.00298287437115462,-0.0034568616452523328,-0.0025067646526085764
+sentiment_gemma_bge_lr,bn_binary_cinexdrama,Matched All-real - Base,macro_f1,0.009914146583913144,0.008101269334995576,0.011730052190326322
+sentiment_gemma_bge_lr,bn_binary_cinexdrama,Matched All-real - Base,auroc,0.006375688735414584,0.005686478582738834,0.00710375875709185
+sentiment_gemma_bge_lr,bn_binary_cinexdrama,Matched All-real - Hybrid,macro_f1,0.016844431316996467,0.014755116492785233,0.018870231572729986
+sentiment_gemma_bge_lr,bn_binary_cinexdrama,Matched All-real - Hybrid,auroc,0.009358563106569205,0.008582096092832479,0.010176409753019342
+sentiment_gemma_bge_lr,en_binary_sst2,Hybrid - Base,macro_f1,0.003728520269504314,0.002578423574611764,0.004884636273112811
+sentiment_gemma_bge_lr,en_binary_sst2,Hybrid - Base,auroc,0.0008938494569335775,0.0007239622800370404,0.001063405110718201
+sentiment_gemma_bge_lr,en_binary_sst2,Matched All-real - Base,macro_f1,0.00527247451502421,0.0035992800518171685,0.00695555665243246
+sentiment_gemma_bge_lr,en_binary_sst2,Matched All-real - Base,auroc,0.0010929738149364177,0.000721773175044193,0.001460917108697463
+sentiment_gemma_bge_lr,en_binary_sst2,Matched All-real - Hybrid,macro_f1,0.0015439542455198962,4.541124229431127e-05,0.003035495960345089
+sentiment_gemma_bge_lr,en_binary_sst2,Matched All-real - Hybrid,auroc,0.00019912435800284011,-0.000141978719373622,0.0005380304369790296
+sentiment_gemma_bge_lr,ha_binary_hausa_movie_review,Hybrid - Base,macro_f1,-0.005425034818065788,-0.010424709300708643,-0.00039731069001950985
+sentiment_gemma_bge_lr,ha_binary_hausa_movie_review,Hybrid - Base,auroc,0.00044924102834078996,-0.001288058260945857,0.002263797490567707
+sentiment_gemma_bge_lr,ha_binary_hausa_movie_review,Matched All-real - Base,macro_f1,0.01594745090127616,0.011730215042152246,0.02006611530872459
+sentiment_gemma_bge_lr,ha_binary_hausa_movie_review,Matched All-real - Base,auroc,0.015916469246292884,0.013800978327630081,0.018009191015179418
+sentiment_gemma_bge_lr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,macro_f1,0.021372485719341947,0.017548133263960694,0.025105391584055912
+sentiment_gemma_bge_lr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,auroc,0.015467228217952093,0.01371060366763183,0.01724756514872335
+sentiment_gemma_bge_lr,ko_binary_nsmc,Hybrid - Base,macro_f1,-0.0023727525890615397,-0.002862470163453267,-0.0019059604201579706
+sentiment_gemma_bge_lr,ko_binary_nsmc,Hybrid - Base,auroc,-0.0015587237818680277,-0.001867059696039366,-0.0012451647899075222
+sentiment_gemma_bge_lr,ko_binary_nsmc,Matched All-real - Base,macro_f1,0.005694095657277429,0.004785768438657203,0.0066294264388335146
+sentiment_gemma_bge_lr,ko_binary_nsmc,Matched All-real - Base,auroc,0.005117409882552053,0.004460970007313139,0.005805460734402466
+sentiment_gemma_bge_lr,ko_binary_nsmc,Matched All-real - Hybrid,macro_f1,0.00806684824633897,0.007258003802608006,0.008899487101620501
+sentiment_gemma_bge_lr,ko_binary_nsmc,Matched All-real - Hybrid,auroc,0.0066761336644200805,0.006099445173212681,0.007271321726589295
+sentiment_gemma_bge_lr,ml_binary_dravidian_codemix,Hybrid - Base,macro_f1,0.1650509829788047,0.15641385106720804,0.17388071879039063
+sentiment_gemma_bge_lr,ml_binary_dravidian_codemix,Hybrid - Base,auroc,0.0011179677443779678,-0.000687424282577444,0.0030063626296660925
+sentiment_gemma_bge_lr,ml_binary_dravidian_codemix,Matched All-real - Base,macro_f1,0.10541200070628834,0.09731521311447759,0.11379730965521913
+sentiment_gemma_bge_lr,ml_binary_dravidian_codemix,Matched All-real - Base,auroc,0.01930235859771333,0.016731621961838434,0.02199688138865751
+sentiment_gemma_bge_lr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,macro_f1,-0.059638982272516364,-0.06424330893266766,-0.05513784078174839
+sentiment_gemma_bge_lr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,auroc,0.018184390853335362,0.016418722079200445,0.01996101499204967
+sentiment_gemma_xlmr,bn_binary_cinexdrama,Hybrid - Base,macro_f1,0.005018981326288839,-0.02599256097697698,0.028203740907293506
+sentiment_gemma_xlmr,bn_binary_cinexdrama,Hybrid - Base,auroc,0.013285771880313425,-0.004861890655401496,0.02684754333993584
+sentiment_gemma_xlmr,bn_binary_cinexdrama,Matched All-real - Base,macro_f1,0.0288131989373114,0.017371873469701586,0.0401619354850756
+sentiment_gemma_xlmr,bn_binary_cinexdrama,Matched All-real - Base,auroc,0.029883696471454363,0.020971989722285513,0.0395914506243171
+sentiment_gemma_xlmr,bn_binary_cinexdrama,Matched All-real - Hybrid,macro_f1,0.02379421761102256,0.00013269451216545917,0.05522763122748733
+sentiment_gemma_xlmr,bn_binary_cinexdrama,Matched All-real - Hybrid,auroc,0.016597924591140942,0.0033599442292298254,0.03491601883176447
+sentiment_gemma_xlmr,en_binary_sst2,Hybrid - Base,macro_f1,0.02182573792057556,0.016300075102083617,0.027113683290446968
+sentiment_gemma_xlmr,en_binary_sst2,Hybrid - Base,auroc,0.025925528332070374,0.02012027184895175,0.031668054590805725
+sentiment_gemma_xlmr,en_binary_sst2,Matched All-real - Base,macro_f1,0.017352928549288504,0.010735432852442876,0.023545213362702804
+sentiment_gemma_xlmr,en_binary_sst2,Matched All-real - Base,auroc,0.019695156605203327,0.013712424749515863,0.025448395533383832
+sentiment_gemma_xlmr,en_binary_sst2,Matched All-real - Hybrid,macro_f1,-0.004472809371287056,-0.010622690874334362,0.0016441408022989485
+sentiment_gemma_xlmr,en_binary_sst2,Matched All-real - Hybrid,auroc,-0.006230371726867052,-0.010862107434537343,-0.0016348996484802417
+sentiment_gemma_xlmr,ha_binary_hausa_movie_review,Hybrid - Base,macro_f1,0.008884956179484907,-0.012025911038217992,0.024371294886749714
+sentiment_gemma_xlmr,ha_binary_hausa_movie_review,Hybrid - Base,auroc,0.019849083092041753,0.0026341252083881637,0.03433672238308327
+sentiment_gemma_xlmr,ha_binary_hausa_movie_review,Matched All-real - Base,macro_f1,0.031523209870676645,0.010840090118968844,0.046331313085969585
+sentiment_gemma_xlmr,ha_binary_hausa_movie_review,Matched All-real - Base,auroc,0.038499605159252444,0.018640497499341914,0.052313075809423536
+sentiment_gemma_xlmr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,macro_f1,0.022638253691191747,-0.0030378166642402314,0.048364432646691095
+sentiment_gemma_xlmr,ha_binary_hausa_movie_review,Matched All-real - Hybrid,auroc,0.01865052206721069,-0.005736246380626461,0.0407580064929367
+sentiment_gemma_xlmr,ko_binary_nsmc,Hybrid - Base,macro_f1,0.01174824350607825,0.006503424028207199,0.01611039453862468
+sentiment_gemma_xlmr,ko_binary_nsmc,Hybrid - Base,auroc,0.016115740374923315,0.010189080754524822,0.020997670554084375
+sentiment_gemma_xlmr,ko_binary_nsmc,Matched All-real - Base,macro_f1,0.018038175534744055,0.014222026931758948,0.0214492217160018
+sentiment_gemma_xlmr,ko_binary_nsmc,Matched All-real - Base,auroc,0.023891394833082922,0.019597716089623414,0.02804966934969225
+sentiment_gemma_xlmr,ko_binary_nsmc,Matched All-real - Hybrid,macro_f1,0.006289932028665803,0.001645636693464873,0.011424782680179654
+sentiment_gemma_xlmr,ko_binary_nsmc,Matched All-real - Hybrid,auroc,0.0077756544581596065,0.002548537759119648,0.013789764392700847
+sentiment_gemma_xlmr,ml_binary_dravidian_codemix,Hybrid - Base,macro_f1,0.06553860160090265,0.04822940866458764,0.08453993045769691
+sentiment_gemma_xlmr,ml_binary_dravidian_codemix,Hybrid - Base,auroc,0.08319996024835313,0.06693221634360567,0.10083291767623229
+sentiment_gemma_xlmr,ml_binary_dravidian_codemix,Matched All-real - Base,macro_f1,0.04194067798406733,0.014999068371707341,0.06767656152624998
+sentiment_gemma_xlmr,ml_binary_dravidian_codemix,Matched All-real - Base,auroc,0.06401307072007269,0.04260926615620503,0.08535710584349206
+sentiment_gemma_xlmr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,macro_f1,-0.023597923616835322,-0.04753983691340253,-0.003288133854973302
+sentiment_gemma_xlmr,ml_binary_dravidian_codemix,Matched All-real - Hybrid,auroc,-0.01918688952828045,-0.036175481042250324,-0.004237212037177275
+offensive_gemma_qwen_lr,bn_binary_tb_olid,Hybrid - Base,macro_f1,-0.0009719803091397572,-0.0038955136076522785,0.0018199171559680233
+offensive_gemma_qwen_lr,bn_binary_tb_olid,Hybrid - Base,auroc,0.0054507481475123635,0.00315587053635288,0.0077325265356335444
+offensive_gemma_qwen_lr,bn_binary_tb_olid,Matched All-real - Base,macro_f1,0.020709986520452087,0.017469634524186834,0.023927406363984702
+offensive_gemma_qwen_lr,bn_binary_tb_olid,Matched All-real - Base,auroc,0.027770434583583664,0.02325564942310286,0.03218816492350951
+offensive_gemma_qwen_lr,bn_binary_tb_olid,Matched All-real - Hybrid,macro_f1,0.021681966829591847,0.017847174141832085,0.025579912782818712
+offensive_gemma_qwen_lr,bn_binary_tb_olid,Matched All-real - Hybrid,auroc,0.022319686436071295,0.018248349824866863,0.026468202198053712
+offensive_gemma_qwen_lr,en_binary_olid,Hybrid - Base,macro_f1,0.03908594013430175,0.03509600293762688,0.04313472385368815
+offensive_gemma_qwen_lr,en_binary_olid,Hybrid - Base,auroc,0.003123607940789923,0.002283039358096429,0.003977457287127345
+offensive_gemma_qwen_lr,en_binary_olid,Matched All-real - Base,macro_f1,0.03812413737567915,0.03356860584291672,0.04274018277096306
+offensive_gemma_qwen_lr,en_binary_olid,Matched All-real - Base,auroc,0.0022084803209518043,0.0009516255101335063,0.0034942553780175937
+offensive_gemma_qwen_lr,en_binary_olid,Matched All-real - Hybrid,macro_f1,-0.000961802758622603,-0.004316166497949211,0.0024058296915436175
+offensive_gemma_qwen_lr,en_binary_olid,Matched All-real - Hybrid,auroc,-0.0009151276198381186,-0.002073327799681803,0.0002637338313619845
+offensive_gemma_qwen_lr,ha_binary_hausahate,Hybrid - Base,macro_f1,0.050677445997037426,0.04327030278587407,0.05810377808819761
+offensive_gemma_qwen_lr,ha_binary_hausahate,Hybrid - Base,auroc,0.012604529616724749,0.008781830720092924,0.01624716898954706
+offensive_gemma_qwen_lr,ha_binary_hausahate,Matched All-real - Base,macro_f1,0.07064175868859536,0.0624880955118045,0.07894386465723674
+offensive_gemma_qwen_lr,ha_binary_hausahate,Matched All-real - Base,auroc,0.027529036004645766,0.022649390243902424,0.0322096762485482
+offensive_gemma_qwen_lr,ha_binary_hausahate,Matched All-real - Hybrid,macro_f1,0.01996431269155793,0.012304351083936104,0.02740874204202343
+offensive_gemma_qwen_lr,ha_binary_hausahate,Matched All-real - Hybrid,auroc,0.014924506387921019,0.010246733449477356,0.019663400116144005
+offensive_gemma_qwen_lr,ko_binary_kold,Hybrid - Base,macro_f1,0.0072104462486377,0.005984084639868555,0.00848994055326489
+offensive_gemma_qwen_lr,ko_binary_kold,Hybrid - Base,auroc,0.005783039400524743,0.00487926898243249,0.006752027520837416
+offensive_gemma_qwen_lr,ko_binary_kold,Matched All-real - Base,macro_f1,0.009689299933364736,0.008261353172234354,0.011093207317545829
+offensive_gemma_qwen_lr,ko_binary_kold,Matched All-real - Base,auroc,0.0088423859093559,0.007743017282815679,0.009996930430761743
+offensive_gemma_qwen_lr,ko_binary_kold,Matched All-real - Hybrid,macro_f1,0.002478853684727036,0.0012800321235545962,0.003690105272531535
+offensive_gemma_qwen_lr,ko_binary_kold,Matched All-real - Hybrid,auroc,0.003059346508831158,0.0022753995825315126,0.003855287539568751
+offensive_gemma_qwen_lr,ml_binary_dravidian_offensive,Hybrid - Base,macro_f1,0.0,0.0,0.0
+offensive_gemma_qwen_lr,ml_binary_dravidian_offensive,Hybrid - Base,auroc,0.018630901808471902,0.011843958611481971,0.02633540174778493
+offensive_gemma_qwen_lr,ml_binary_dravidian_offensive,Matched All-real - Base,macro_f1,0.0,0.0,0.0
+offensive_gemma_qwen_lr,ml_binary_dravidian_offensive,Matched All-real - Base,auroc,0.03057121616701055,0.022697684033256456,0.039351411730792554
+offensive_gemma_qwen_lr,ml_binary_dravidian_offensive,Matched All-real - Hybrid,macro_f1,0.0,0.0,0.0
+offensive_gemma_qwen_lr,ml_binary_dravidian_offensive,Matched All-real - Hybrid,auroc,0.01194031435853865,0.005605989804587941,0.018274396164583068

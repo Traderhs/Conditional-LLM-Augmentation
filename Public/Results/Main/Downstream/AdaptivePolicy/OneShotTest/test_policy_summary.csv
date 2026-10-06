@@ -1,0 +1,6 @@
+﻿cell_id,frozen_augmentation,frozen_ratio,frozen_synthetic_weight,test_macro_f1_delta_mean,test_macro_f1_delta_ci_lower,test_macro_f1_delta_ci_upper,test_auroc_delta_mean,test_auroc_delta_ci_lower,test_auroc_delta_ci_upper,policy_changed_after_test
+bn_binary_cinexdrama,ON,4.0,0.5,0.00560963371618532,0.003636059844841967,0.007618706425843643,0.0022170999199518414,0.00172640916872627,0.0027185723383991362,False
+en_binary_sst2,ON,3.0,0.75,0.0008498447146838583,-0.0011003987735640883,0.0027954473300547777,0.0007428222615138202,0.0006199982108276217,0.0008692272880356686,False
+ha_binary_hausa_movie_review,OFF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+ko_binary_nsmc,OFF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+ml_binary_dravidian_codemix,OFF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False

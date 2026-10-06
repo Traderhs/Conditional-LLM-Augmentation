@@ -1,0 +1,22 @@
+IMPORTANT:
+You MUST output ONLY one valid JSON object.
+No introductions, no explanations, no code fences, no comments.
+The first character must be '{' and the last must be '}'.
+Schema: {"text": string, "label": "positive|negative"}
+
+Output exactly one JSON object and nothing else.
+Format: {"text":"...", "label":"positive|negative"}
+Target label: {label}
+Target language: English
+Seed sentence: {seed_text_clipped_to_20_words}
+Generate exactly one new sentence in the same domain, about the same specific subject or evaluative aspect as the seed, and consistent with the target sentiment.
+Preserve the seed's core meaning and specific evaluation, but use substantially different wording and sentence structure. You may change the emphasis or viewpoint, but do not introduce a different situation, domain, or unrelated subject.
+Rules:
+1. Use only the target language in the generated sentence.
+2. Write a natural, complete sentence that can be understood independently.
+3. Do not copy, closely paraphrase, or merely replace a few words from the seed.
+4. Do not invent facts, situations, proper names, identifiable people, events, or numbers absent from the seed. Do not change the subject or evaluation target.
+5. Do not use meaningless strings, mixed languages, or excessive repetition.
+6. Ensure that the sentence is unambiguously consistent with the target label. The sentiment may be expressed implicitly.
+7. Preserve the seed's specific evaluative aspect instead of replacing it with generic stock praise or criticism.
+8. Output exactly one sentence with no more than 30 words.

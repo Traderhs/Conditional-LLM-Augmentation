@@ -1,0 +1,118 @@
+{
+  "classifier": {
+    "C": 1.0,
+    "class_weight": null,
+    "fit_intercept": true,
+    "max_iter": 2000,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "tol": 0.0001
+  },
+  "created_at": "2026-07-20T04:20:54.911669+00:00",
+  "development_only": true,
+  "experiment_id": "binary_adaptive_decision_boundary_diagnostic",
+  "experiment_name": "Binary Adaptive Decision-Boundary Diagnostic",
+  "final_adaptive_policy": [
+    {
+      "augmentation": "ON",
+      "cell_id": "bn_binary_cinexdrama",
+      "decision_reason": "all_development_safety_guards_passed",
+      "diagnostic_auroc_ci_lower": 0.0011931677200374413,
+      "diagnostic_macro_f1_ci_lower": 0.00032318636727533096,
+      "diagnostic_macro_f1_ci_upper": 0.005458764696180223,
+      "final_training_arm": "adaptive_hybrid",
+      "selected_ratio": 4.0,
+      "selected_synthetic_weight": 0.5,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "ON",
+      "cell_id": "en_binary_sst2",
+      "decision_reason": "all_development_safety_guards_passed",
+      "diagnostic_auroc_ci_lower": 0.0008408154802069516,
+      "diagnostic_macro_f1_ci_lower": 0.0008416070461617925,
+      "diagnostic_macro_f1_ci_upper": 0.003761687969116725,
+      "final_training_arm": "adaptive_hybrid",
+      "selected_ratio": 3.0,
+      "selected_synthetic_weight": 0.75,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "OFF",
+      "cell_id": "ha_binary_hausa_movie_review",
+      "decision_reason": "augmentation_off_base_selected",
+      "diagnostic_auroc_ci_lower": null,
+      "diagnostic_macro_f1_ci_lower": null,
+      "diagnostic_macro_f1_ci_upper": null,
+      "final_training_arm": "base",
+      "selected_ratio": 0.0,
+      "selected_synthetic_weight": 0.0,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "OFF",
+      "cell_id": "ko_binary_nsmc",
+      "decision_reason": "augmentation_off_base_selected",
+      "diagnostic_auroc_ci_lower": null,
+      "diagnostic_macro_f1_ci_lower": null,
+      "diagnostic_macro_f1_ci_upper": null,
+      "final_training_arm": "base",
+      "selected_ratio": 0.0,
+      "selected_synthetic_weight": 0.0,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "OFF",
+      "cell_id": "ml_binary_dravidian_codemix",
+      "decision_reason": "training_only_threshold_diagnostic_failed_fallback_to_base",
+      "diagnostic_auroc_ci_lower": -0.008511275540865415,
+      "diagnostic_macro_f1_ci_lower": -0.004061418752737186,
+      "diagnostic_macro_f1_ci_upper": 0.0072748800273362635,
+      "final_training_arm": "base",
+      "selected_ratio": 0.0,
+      "selected_synthetic_weight": 0.0,
+      "test_evaluation_allowed": true
+    }
+  ],
+  "input_artifact_sha256": {
+    "adaptive_protocol_lock": "10ba22a6a26b1b27b93ce0bd23a3b691ffb7ef344e96f0453817a6ef72f43ddb",
+    "bn_binary_cinexdrama/dev_embedding_array": "46932e9fef180d6784c5d3d5290d3b01f0c88d6b4806338e7b48f295e29c3117",
+    "bn_binary_cinexdrama/dev_embedding_manifest": "ad50402c2caa92178242c1e060efdd0206b7e54147e0039a31e4fe9c585c6479",
+    "bn_binary_cinexdrama/dev_split": "6dcf872075afc7d0bd109eec79907231ca3182b2e767c68fafca220954122527",
+    "bn_binary_cinexdrama/experiment_bank": "f2b9dc1a03051c8eac7ca2524710dfb55a541059842393f93d24aba534cc0795",
+    "bn_binary_cinexdrama/repetitions": "eff0afcd8aae4d8aa1d48dc990614755ca8dbc2674fff30e7298d636060aafb0",
+    "bn_binary_cinexdrama/train_embedding_array": "7b2dfe42432dbe9251e0ca067fbec2aa8f2cdc596214d7ab671af0d90df590fd",
+    "bn_binary_cinexdrama/train_embedding_manifest": "e7ed4a37ecc8ddc3161666c9ec854b90847baf7b7869d4aabf9d285a37ff9572",
+    "en_binary_sst2/dev_embedding_array": "9a960340875abf662f2f0adc979090e0dd99e7b590c6e6f90f303ea424226549",
+    "en_binary_sst2/dev_embedding_manifest": "24ba87b615b9a8bfd71444e3c2336ed1a50ef0fa312b707df47fb7c87ccbc6eb",
+    "en_binary_sst2/dev_split": "657218dd8559ac03f679819537d77183b1245c585dd29fc7e9e8b689b6fed6f7",
+    "en_binary_sst2/experiment_bank": "6109afb4894d25e9c9e16210d6aad90819fef1305985e1bd1c9623b30bf6b712",
+    "en_binary_sst2/repetitions": "a6c871592ab6365d54e4428394dd879a688813d2158b16bfd6ab3b6a4d99deae",
+    "en_binary_sst2/train_embedding_array": "9167443abe17068843b2086ee6896499bffb9dff089e0ef4848f1124127a0971",
+    "en_binary_sst2/train_embedding_manifest": "0e2472792f82cdd6af737ffebccc6f23b2df85a313069d9bfb9d4a2d2f9e8c83",
+    "generation_plan": "dc9663f5eb82a8aac51eedf429855fd1a737f12cb0efbf20acaab8af44538054",
+    "ml_binary_dravidian_codemix/dev_embedding_array": "86c88d5abef7742d7f091d3ac3048722a9fc56971889779834f3dd5b9f205330",
+    "ml_binary_dravidian_codemix/dev_embedding_manifest": "960a0c9bea4cbe01e61db130259081a83f5c9c3ab65c02f485dcd4b065528cb3",
+    "ml_binary_dravidian_codemix/dev_split": "abdade6a9f0e6b4a6a0391f7672ec4bd7b161bc8bbb5fd480bc5e5ca62faf65e",
+    "ml_binary_dravidian_codemix/experiment_bank": "47d18e9337cc852cdb2c21dd7f189da88318dfa49a223eb4405886c45b0047af",
+    "ml_binary_dravidian_codemix/repetitions": "b4bc5d462d4e7cd17dd981e5be90155c76f5f43e3897ce922319804bf6748044",
+    "ml_binary_dravidian_codemix/train_embedding_array": "b902ee332643909429a4a75fa75e97d0639152cb502e71326929d0438802f2a1",
+    "ml_binary_dravidian_codemix/train_embedding_manifest": "f0f1efdaa0dad51bd411048682230b95560d6fd421f15ed74b0242dedaa71197",
+    "weight_grid_lock": "6d15075ce19ce6692e494a546b79ac97cc67cd568c87f91b6ad704e2f42103ce",
+    "weight_selection_audit": "366241bbb677d8dcf243ba752a96b828ef46b540ce14e7115d02864745cd1fb1"
+  },
+  "prohibited_after_lock": [
+    "changing ON/OFF decisions after viewing test results",
+    "changing ratio or synthetic weight after viewing test results",
+    "searching a second positive candidate for a cell that fell back to Base",
+    "tuning a test threshold"
+  ],
+  "protocol_version": "binary-adaptive-diagnostic-v1",
+  "test_data_accessed": false,
+  "threshold_selection": {
+    "development_labels_used_for_threshold_selection": false,
+    "objective": "Macro-F1",
+    "source": "training-only five-fold out-of-fold probabilities",
+    "tie_break": "threshold nearest 0.5, then lower threshold"
+  }
+}

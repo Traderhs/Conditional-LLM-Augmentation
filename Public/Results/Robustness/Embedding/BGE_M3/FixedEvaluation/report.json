@@ -1,0 +1,264 @@
+{
+  "configuration": {
+    "arm": "sentiment_gemma_bge_lr",
+    "classifier": "sklearn.linear_model.LogisticRegression",
+    "classifier_C": 1.0,
+    "evaluation_split": "test",
+    "input_lock_sha256": {
+      "generation": "b722145d24271a2fe657c63711af3c14172ce930e637eba5ce826c8179b12dc9",
+      "manifest": "80ad264e88f00b2d3e65dcd481aa2b5a37e57f33ebd0d9c9654dc947d4f9e517",
+      "real_embedding": "2cf2b2c3b3570ae33e6dfc39c12141099ee394e3cb7f2ff31d88f494ec5e4ce4",
+      "synthetic_embedding": "2cf2b2c3b3570ae33e6dfc39c12141099ee394e3cb7f2ff31d88f494ec5e4ce4",
+      "test_embedding": "3bf00306356887bff0278b5bd3e7acb8f1b753d8f044ebec499f98e044a40691"
+    },
+    "planned_fits": 750,
+    "ratio": 1.0,
+    "repetitions": 50,
+    "robustness_version": "r3-targeted-robustness-v1",
+    "selection": "unfiltered parent-round-robin; three candidates per seed maximum",
+    "synthetic_weight": 1.0,
+    "task": "sentiment"
+  },
+  "summary": [
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "ci_lower": -0.008342633479162923,
+      "ci_upper": -0.005469506834152957,
+      "comparison": "Hybrid - Base",
+      "mean_difference": -0.006930284733083325,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "ci_lower": -0.0034568616452523328,
+      "ci_upper": -0.0025067646526085764,
+      "comparison": "Hybrid - Base",
+      "mean_difference": -0.00298287437115462,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "ci_lower": 0.008101269334995576,
+      "ci_upper": 0.011730052190326322,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.009914146583913144,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "ci_lower": 0.005686478582738834,
+      "ci_upper": 0.00710375875709185,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.006375688735414584,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "ci_lower": 0.014755116492785233,
+      "ci_upper": 0.018870231572729986,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.016844431316996467,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "ci_lower": 0.008582096092832479,
+      "ci_upper": 0.010176409753019342,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.009358563106569205,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "en_binary_sst2",
+      "ci_lower": 0.002578423574611764,
+      "ci_upper": 0.004884636273112811,
+      "comparison": "Hybrid - Base",
+      "mean_difference": 0.003728520269504314,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "en_binary_sst2",
+      "ci_lower": 0.0007239622800370404,
+      "ci_upper": 0.001063405110718201,
+      "comparison": "Hybrid - Base",
+      "mean_difference": 0.0008938494569335775,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "en_binary_sst2",
+      "ci_lower": 0.0035992800518171685,
+      "ci_upper": 0.00695555665243246,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.00527247451502421,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "en_binary_sst2",
+      "ci_lower": 0.000721773175044193,
+      "ci_upper": 0.001460917108697463,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.0010929738149364177,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "en_binary_sst2",
+      "ci_lower": 4.541124229431127e-05,
+      "ci_upper": 0.003035495960345089,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.0015439542455198962,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "en_binary_sst2",
+      "ci_lower": -0.000141978719373622,
+      "ci_upper": 0.0005380304369790296,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.00019912435800284011,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "ci_lower": -0.010424709300708643,
+      "ci_upper": -0.00039731069001950985,
+      "comparison": "Hybrid - Base",
+      "mean_difference": -0.005425034818065788,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "ci_lower": -0.001288058260945857,
+      "ci_upper": 0.002263797490567707,
+      "comparison": "Hybrid - Base",
+      "mean_difference": 0.00044924102834078996,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "ci_lower": 0.011730215042152246,
+      "ci_upper": 0.02006611530872459,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.01594745090127616,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "ci_lower": 0.013800978327630081,
+      "ci_upper": 0.018009191015179418,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.015916469246292884,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "ci_lower": 0.017548133263960694,
+      "ci_upper": 0.025105391584055912,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.021372485719341947,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "ci_lower": 0.01371060366763183,
+      "ci_upper": 0.01724756514872335,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.015467228217952093,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "ci_lower": -0.002862470163453267,
+      "ci_upper": -0.0019059604201579706,
+      "comparison": "Hybrid - Base",
+      "mean_difference": -0.0023727525890615397,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "ci_lower": -0.001867059696039366,
+      "ci_upper": -0.0012451647899075222,
+      "comparison": "Hybrid - Base",
+      "mean_difference": -0.0015587237818680277,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "ci_lower": 0.004785768438657203,
+      "ci_upper": 0.0066294264388335146,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.005694095657277429,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "ci_lower": 0.004460970007313139,
+      "ci_upper": 0.005805460734402466,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.005117409882552053,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "ci_lower": 0.007258003802608006,
+      "ci_upper": 0.008899487101620501,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.00806684824633897,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "ci_lower": 0.006099445173212681,
+      "ci_upper": 0.007271321726589295,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.0066761336644200805,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "ci_lower": 0.15641385106720804,
+      "ci_upper": 0.17388071879039063,
+      "comparison": "Hybrid - Base",
+      "mean_difference": 0.1650509829788047,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "ci_lower": -0.000687424282577444,
+      "ci_upper": 0.0030063626296660925,
+      "comparison": "Hybrid - Base",
+      "mean_difference": 0.0011179677443779678,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "ci_lower": 0.09731521311447759,
+      "ci_upper": 0.11379730965521913,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.10541200070628834,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "ci_lower": 0.016731621961838434,
+      "ci_upper": 0.02199688138865751,
+      "comparison": "Matched All-real - Base",
+      "mean_difference": 0.01930235859771333,
+      "metric": "auroc"
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "ci_lower": -0.06424330893266766,
+      "ci_upper": -0.05513784078174839,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": -0.059638982272516364,
+      "metric": "macro_f1"
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "ci_lower": 0.016418722079200445,
+      "ci_upper": 0.01996101499204967,
+      "comparison": "Matched All-real - Hybrid",
+      "mean_difference": 0.018184390853335362,
+      "metric": "auroc"
+    }
+  ]
+}

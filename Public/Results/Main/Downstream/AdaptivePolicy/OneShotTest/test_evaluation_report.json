@@ -1,0 +1,202 @@
+{
+  "classifier": {
+    "C": 1.0,
+    "class_weight": null,
+    "fit_intercept": true,
+    "max_iter": 2000,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "tol": 0.0001
+  },
+  "created_at": "2026-07-20T04:40:05.377006+00:00",
+  "experiment_id": "binary_frozen_adaptive_one_shot_test",
+  "experiment_name": "Binary Frozen-Adaptive One-Shot Test Evaluation",
+  "frozen_policy": [
+    {
+      "augmentation": "ON",
+      "cell_id": "bn_binary_cinexdrama",
+      "decision_reason": "all_development_safety_guards_passed",
+      "diagnostic_auroc_ci_lower": 0.0011931677200374413,
+      "diagnostic_macro_f1_ci_lower": 0.00032318636727533096,
+      "diagnostic_macro_f1_ci_upper": 0.005458764696180223,
+      "final_training_arm": "adaptive_hybrid",
+      "selected_ratio": 4.0,
+      "selected_synthetic_weight": 0.5,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "ON",
+      "cell_id": "en_binary_sst2",
+      "decision_reason": "all_development_safety_guards_passed",
+      "diagnostic_auroc_ci_lower": 0.0008408154802069516,
+      "diagnostic_macro_f1_ci_lower": 0.0008416070461617925,
+      "diagnostic_macro_f1_ci_upper": 0.003761687969116725,
+      "final_training_arm": "adaptive_hybrid",
+      "selected_ratio": 3.0,
+      "selected_synthetic_weight": 0.75,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "OFF",
+      "cell_id": "ha_binary_hausa_movie_review",
+      "decision_reason": "augmentation_off_base_selected",
+      "diagnostic_auroc_ci_lower": null,
+      "diagnostic_macro_f1_ci_lower": null,
+      "diagnostic_macro_f1_ci_upper": null,
+      "final_training_arm": "base",
+      "selected_ratio": 0.0,
+      "selected_synthetic_weight": 0.0,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "OFF",
+      "cell_id": "ko_binary_nsmc",
+      "decision_reason": "augmentation_off_base_selected",
+      "diagnostic_auroc_ci_lower": null,
+      "diagnostic_macro_f1_ci_lower": null,
+      "diagnostic_macro_f1_ci_upper": null,
+      "final_training_arm": "base",
+      "selected_ratio": 0.0,
+      "selected_synthetic_weight": 0.0,
+      "test_evaluation_allowed": true
+    },
+    {
+      "augmentation": "OFF",
+      "cell_id": "ml_binary_dravidian_codemix",
+      "decision_reason": "training_only_threshold_diagnostic_failed_fallback_to_base",
+      "diagnostic_auroc_ci_lower": -0.008511275540865415,
+      "diagnostic_macro_f1_ci_lower": -0.004061418752737186,
+      "diagnostic_macro_f1_ci_upper": 0.0072748800273362635,
+      "final_training_arm": "base",
+      "selected_ratio": 0.0,
+      "selected_synthetic_weight": 0.0,
+      "test_evaluation_allowed": true
+    }
+  ],
+  "inference": {
+    "bootstrap_repetitions": 10000,
+    "bootstrap_unit": "paired downstream repeat",
+    "pooled_weighting": "equal cell weight",
+    "seed": 20260713
+  },
+  "input_artifact_sha256": {
+    "adaptive_selection_lock": "8464fe200d04ed85b28a3e983793ed18bef108aab4c8abd20905771423349264",
+    "decision_boundary_repeat_results": "de23ebf813cb64caf8a576fe45a875dfc803d7769fd53fa7578a2a7365add459",
+    "final_adaptive_protocol": "0a2d17f461e3aaf764cbeb87675b220f8b56e34ed60fbf3c14e45798ec5522c1",
+    "generation_plan": "dc9663f5eb82a8aac51eedf429855fd1a737f12cb0efbf20acaab8af44538054",
+    "qwen_training_embedding_lock": "fe168a7481a602164d3fd9724d3edb9f57a714ba6294f41b42c3ea4dca1262cb",
+    "synthetic_weight_grid_lock": "6d15075ce19ce6692e494a546b79ac97cc67cd568c87f91b6ad704e2f42103ce",
+    "weight_selection_audit": "366241bbb677d8dcf243ba752a96b828ef46b540ce14e7115d02864745cd1fb1"
+  },
+  "policy_changed_after_test": false,
+  "policy_results": [
+    {
+      "cell_id": "bn_binary_cinexdrama",
+      "frozen_augmentation": "ON",
+      "frozen_ratio": 4.0,
+      "frozen_synthetic_weight": 0.5,
+      "policy_changed_after_test": false,
+      "test_auroc_delta_ci_lower": 0.00172640916872627,
+      "test_auroc_delta_ci_upper": 0.0027185723383991362,
+      "test_auroc_delta_mean": 0.0022170999199518414,
+      "test_macro_f1_delta_ci_lower": 0.003636059844841967,
+      "test_macro_f1_delta_ci_upper": 0.007618706425843643,
+      "test_macro_f1_delta_mean": 0.00560963371618532
+    },
+    {
+      "cell_id": "en_binary_sst2",
+      "frozen_augmentation": "ON",
+      "frozen_ratio": 3.0,
+      "frozen_synthetic_weight": 0.75,
+      "policy_changed_after_test": false,
+      "test_auroc_delta_ci_lower": 0.0006199982108276217,
+      "test_auroc_delta_ci_upper": 0.0008692272880356686,
+      "test_auroc_delta_mean": 0.0007428222615138202,
+      "test_macro_f1_delta_ci_lower": -0.0011003987735640883,
+      "test_macro_f1_delta_ci_upper": 0.0027954473300547777,
+      "test_macro_f1_delta_mean": 0.0008498447146838583
+    },
+    {
+      "cell_id": "ha_binary_hausa_movie_review",
+      "frozen_augmentation": "OFF",
+      "frozen_ratio": 0.0,
+      "frozen_synthetic_weight": 0.0,
+      "policy_changed_after_test": false,
+      "test_auroc_delta_ci_lower": 0.0,
+      "test_auroc_delta_ci_upper": 0.0,
+      "test_auroc_delta_mean": 0.0,
+      "test_macro_f1_delta_ci_lower": 0.0,
+      "test_macro_f1_delta_ci_upper": 0.0,
+      "test_macro_f1_delta_mean": 0.0
+    },
+    {
+      "cell_id": "ko_binary_nsmc",
+      "frozen_augmentation": "OFF",
+      "frozen_ratio": 0.0,
+      "frozen_synthetic_weight": 0.0,
+      "policy_changed_after_test": false,
+      "test_auroc_delta_ci_lower": 0.0,
+      "test_auroc_delta_ci_upper": 0.0,
+      "test_auroc_delta_mean": 0.0,
+      "test_macro_f1_delta_ci_lower": 0.0,
+      "test_macro_f1_delta_ci_upper": 0.0,
+      "test_macro_f1_delta_mean": 0.0
+    },
+    {
+      "cell_id": "ml_binary_dravidian_codemix",
+      "frozen_augmentation": "OFF",
+      "frozen_ratio": 0.0,
+      "frozen_synthetic_weight": 0.0,
+      "policy_changed_after_test": false,
+      "test_auroc_delta_ci_lower": 0.0,
+      "test_auroc_delta_ci_upper": 0.0,
+      "test_auroc_delta_mean": 0.0,
+      "test_macro_f1_delta_ci_lower": 0.0,
+      "test_macro_f1_delta_ci_upper": 0.0,
+      "test_macro_f1_delta_mean": 0.0
+    }
+  ],
+  "pretest_threshold_lock_sha256": "6dc45216516e259840c73373aca1996fa58b694b188f612b96216d50082a11e8",
+  "prohibited_post_test_actions": [
+    "changing ON/OFF decisions based on test results",
+    "changing ratio or synthetic weight based on test results",
+    "changing any OOF threshold based on test results",
+    "searching another condition on the test split",
+    "rerunning the one-shot test to choose a preferred result"
+  ],
+  "protocol_version": "binary-frozen-adaptive-test-v1",
+  "status": "completed_one_shot_test_evaluation",
+  "test_access_marker_sha256": "2931c0fcdb44975ccdba790fb3931a4c019cd99f0cae29750270427bb6909815",
+  "test_arm_rule": {
+    "all_cells": [
+      "base",
+      "frozen_adaptive"
+    ],
+    "off_cell_frozen_adaptive_behavior": "exact_base_alias",
+    "on_cells_only": [
+      "matched_all_real",
+      "naive_hybrid"
+    ],
+    "reason_no_matched_or_naive_for_off_cells": "The frozen policy contains no positive ratio for OFF cells; the test evaluation does not invent a post-lock comparison ratio."
+  },
+  "test_artifact_sha256": {
+    "bn_binary_cinexdrama/test_embedding_array": "da0fb2d670cd09fc9ec8bffabf8ea576e650c0717d019de27d41af3f45ef737e",
+    "bn_binary_cinexdrama/test_embedding_manifest": "274fa2cbdaf38e3635eba52f702bc2ab0401e0084b12092741cdd95cf216745c",
+    "bn_binary_cinexdrama/test_split": "2ddfc68b693b2635839ecfbea4fabe9b18e13c96bf8a21ce7a1c3aff13bacdf2",
+    "en_binary_sst2/test_embedding_array": "080fe6b3eaf718b12756a9b751c723caca5c3799bce07fc65021526240cfd9f0",
+    "en_binary_sst2/test_embedding_manifest": "751b720767ea5fd0a60060a6181a0f5aef6410cfb316d1449ef397b3f67c61a1",
+    "en_binary_sst2/test_split": "e2dac282f0f01625937c93b9aa5ac3eee292d46b4027b3974f95368367b7bb45",
+    "ha_binary_hausa_movie_review/test_embedding_array": "82bbabd08d58de311026db5f72ce13f9fd947f08ff16e4ba9607c1f8c7bc4328",
+    "ha_binary_hausa_movie_review/test_embedding_manifest": "393ea7c0c3a367f655fe478f1ab29157ff822bb6841fcc116340b9bcbdef86de",
+    "ha_binary_hausa_movie_review/test_split": "0a1a49a9d4dcc9ed1dc8c0065f067d9a76383694afb379577b62d8fa396de064",
+    "ko_binary_nsmc/test_embedding_array": "eb84d2039ea9bc185ee12bbf81f0cc07b9fdbcffd795b27693b5b7e288e02e12",
+    "ko_binary_nsmc/test_embedding_manifest": "92c12bfb5f6d4fa4fb3f4988a23791d8134a949161b0952b34ee8e83dd1098ed",
+    "ko_binary_nsmc/test_split": "25b11d73787690bd02fb5d91c7d3ab437c1019b96f536af070725823b4cd692b",
+    "ml_binary_dravidian_codemix/test_embedding_array": "d4afa7ffd6f1609c73eb9832e6b9fc80ed8e8bd938551df5916d1c5f4b25e27a",
+    "ml_binary_dravidian_codemix/test_embedding_manifest": "9c4d43982165b47d2c83d644ee066490c3c3a8bbbf377d9b271049d43a938f23",
+    "ml_binary_dravidian_codemix/test_split": "fbaf0303649765ef62acc96b3599fcd31c1137a6292486271213729858647a1e",
+    "qwen_eval_embedding_lock": "ac088980bc6e19a7200d153d7f629528d174f5fdc8061a66272cf6063e4dece0"
+  },
+  "test_data_accessed": true,
+  "thresholds_changed_after_test": false
+}

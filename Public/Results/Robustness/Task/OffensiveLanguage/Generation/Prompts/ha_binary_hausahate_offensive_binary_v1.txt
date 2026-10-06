@@ -1,0 +1,21 @@
+IMPORTANT:
+You MUST output ONLY one valid JSON object.
+No introductions, no explanations, no code fences, no comments.
+The first character must be '{' and the last must be '}'.
+Schema: {"text": string, "label": "non-offensive|offensive"}
+
+Fitar da abu guda ɗaya na JSON kawai. Kada ka fitar da wani rubutu.
+Tsari: {"text":"...", "label":"non-offensive|offensive"}
+Alamar da ake nufi: {label}
+Harshen da ake nufi: Hausa
+Jimlar tushe: {seed_text_clipped_to_20_words}
+Ƙirƙiri sabuwar magana guda ɗaya a irin wannan mahallin rubutun yanar gizo/sada zumunta, game da takamaiman batu ko aikin magana iri ɗaya da jimlar tushe, kuma mai dacewa da alamar offensive-language da ake nufi. Riƙe ainihin ma'ana, abin da ake nufi, da matakin cin mutunci, amma yi amfani da kalmomi da tsarin jimla masu bambanci sosai.
+Ka'idoji:
+1. Yi amfani da harshen da ake nufi kawai.
+2. Ka sa alamar ta kasance a sarari; kada ka mai da non-offensive zuwa offensive, kuma kada ka sassauta offensive ya zama non-offensive.
+3. Kada ka ƙara tsananta offensive fiye da jimlar tushe.
+4. Kada ka kwafi ko ka sake faɗar jimlar tushe da kalmomi kusan iri ɗaya.
+5. Kada ka ƙirƙiri bayanai, yanayi, ainihin mutane, abubuwan da suka faru, ko lambobi da babu su a tushe; ka riƙe alamomin @USER da URL idan sun dace.
+6. Kada ka gabatar da wani sabon abin hari, rukuni, yanayi, ko batu marar alaƙa.
+7. Kada ka yi amfani da rubutu marar ma'ana, haɗa harsuna, ko maimaitawa fiye da kima.
+8. Rubuta magana guda ɗaya tak kuma kada ta wuce kalmomi 30.

@@ -1,0 +1,22 @@
+IMPORTANT:
+You MUST output ONLY one valid JSON object.
+No introductions, no explanations, no code fences, no comments.
+The first character must be '{' and the last must be '}'.
+Schema: {"text": string, "label": "positive|negative"}
+
+Fitar da abu guda ɗaya na JSON kawai. Kada ka fitar da wani rubutu.
+Tsari: {"text":"...", "label":"positive|negative"}
+Alamar da ake nufi: {label}
+Harshen da ake nufi: Hausa
+Jimlar tushe: {seed_text_clipped_to_20_words}
+Ƙirƙiri sabuwar jimla guda ɗaya a cikin fanni ɗaya, game da takamaiman batu ko ɓangaren kimantawa iri ɗaya da jimlar tushe, kuma mai dacewa da alamar da ake nufi.
+Riƙe ainihin ma'ana da takamaiman kimantawar jimlar tushe, amma yi amfani da kalmomi da tsarin jimla masu matuƙar bambanci. Ana iya sauya abin da aka fi jaddadawa ko mahangar magana, amma kada a gabatar da wani yanayi, fanni, ko batu marar alaƙa.
+Ka'idoji:
+1. Yi amfani da harshen da ake nufi kawai a cikin jimlar da aka ƙirƙira.
+2. Rubuta jimla ta halitta, cikakkiya, kuma mai sauƙin fahimta ita kaɗai.
+3. Kada ka kwafi jimlar tushe, ka sake faɗarta da kusan kalmomi iri ɗaya, ko ka sauya wasu kalmomi kaɗan kawai.
+4. Kada ka ƙirƙiri bayanai, yanayi, sunaye na musamman, mutanen da za a iya gane su, abubuwan da suka faru, ko lambobin da babu su a jimlar tushe. Kada ka sauya batu ko abin da ake kimantawa.
+5. Kada ka yi amfani da rubutu marar ma'ana, haɗa wasu harsuna, ko maimaitawa fiye da kima.
+6. Ka tabbatar jimlar ta yi daidai da alamar da ake nufi ba tare da ruɗani ba. Ana iya bayyana ra'ayin a kaikaice.
+7. Kada ka maye gurbin takamaiman ɓangaren kimantawar jimlar tushe da yabo ko suka na gama gari.
+8. Rubuta jimla guda ɗaya tak kuma kada ta wuce kalmomi 30.

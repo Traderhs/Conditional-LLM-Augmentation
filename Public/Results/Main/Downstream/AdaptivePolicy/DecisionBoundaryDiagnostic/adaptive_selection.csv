@@ -1,0 +1,6 @@
+﻿cell_id,augmentation,selected_ratio,selected_synthetic_weight,final_training_arm,decision_reason,diagnostic_macro_f1_ci_lower,diagnostic_macro_f1_ci_upper,diagnostic_auroc_ci_lower,test_evaluation_allowed
+bn_binary_cinexdrama,ON,4.0,0.5,adaptive_hybrid,all_development_safety_guards_passed,0.00032318636727533096,0.005458764696180223,0.0011931677200374413,True
+en_binary_sst2,ON,3.0,0.75,adaptive_hybrid,all_development_safety_guards_passed,0.0008416070461617925,0.003761687969116725,0.0008408154802069516,True
+ha_binary_hausa_movie_review,OFF,0.0,0.0,base,augmentation_off_base_selected,,,,True
+ko_binary_nsmc,OFF,0.0,0.0,base,augmentation_off_base_selected,,,,True
+ml_binary_dravidian_codemix,OFF,0.0,0.0,base,training_only_threshold_diagnostic_failed_fallback_to_base,-0.004061418752737186,0.0072748800273362635,-0.008511275540865415,True

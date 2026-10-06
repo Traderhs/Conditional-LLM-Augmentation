@@ -1,0 +1,13 @@
+analysis,cell_id,language,metric,metric_label,condition,condition_index,mean_rank,rank_1_is_best
+final_three_condition,bn_binary_cinexdrama,Bengali,macro_f1_at_oof_threshold,Macro-F1 at OOF threshold,Base,1,2.76,True
+final_three_condition,bn_binary_cinexdrama,Bengali,macro_f1_at_oof_threshold,Macro-F1 at OOF threshold,Selected Hybrid,2,2.22,True
+final_three_condition,bn_binary_cinexdrama,Bengali,macro_f1_at_oof_threshold,Macro-F1 at OOF threshold,Matched All-real,3,1.02,True
+final_three_condition,bn_binary_cinexdrama,Bengali,auroc,AUROC,Base,1,2.9,True
+final_three_condition,bn_binary_cinexdrama,Bengali,auroc,AUROC,Selected Hybrid,2,2.1,True
+final_three_condition,bn_binary_cinexdrama,Bengali,auroc,AUROC,Matched All-real,3,1.0,True
+final_three_condition,en_binary_sst2,English,macro_f1_at_oof_threshold,Macro-F1 at OOF threshold,Base,1,2.23,True
+final_three_condition,en_binary_sst2,English,macro_f1_at_oof_threshold,Macro-F1 at OOF threshold,Selected Hybrid,2,2.06,True
+final_three_condition,en_binary_sst2,English,macro_f1_at_oof_threshold,Macro-F1 at OOF threshold,Matched All-real,3,1.71,True
+final_three_condition,en_binary_sst2,English,auroc,AUROC,Base,1,2.94,True
+final_three_condition,en_binary_sst2,English,auroc,AUROC,Selected Hybrid,2,1.8,True
+final_three_condition,en_binary_sst2,English,auroc,AUROC,Matched All-real,3,1.26,True
