@@ -1109,7 +1109,7 @@ def verify_lock(root: Path, lock_name: str) -> dict[str, Any]:
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     parser = argparse.ArgumentParser(description=EXPERIMENT_NAME)
     parser.add_argument("--prepared-root", type=Path, default=project_root / "Data" / "Prepared" / "OffensiveLanguage")
     parser.add_argument("--manifest-root", type=Path, default=project_root / "Data" / "ExperimentManifests" / "OffensiveLanguage" / "v1")

@@ -1576,7 +1576,7 @@ def dry_run_summary(
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     parser = argparse.ArgumentParser(
         description="Run the Binary Synthetic-Weight development grid"
     )
@@ -1603,7 +1603,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         raise SystemExit("workers and progress-every must be positive")
     if args.dry_run and args.resume:
         raise SystemExit("--dry-run and --resume cannot be combined")
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     manifest_root = args.manifest_root.resolve()
     experiment_root = args.output_root.resolve()
     downstream_root = experiment_root / "Downstream" / "SyntheticWeightGrid"

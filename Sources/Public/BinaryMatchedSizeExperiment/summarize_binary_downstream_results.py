@@ -1071,7 +1071,7 @@ def run_analysis(
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     parser = argparse.ArgumentParser(description="Summarize the Binary Matched-Size development grid")
     parser.add_argument("--output-root", type=Path, default=project_root / "Results" / PATH_ID)
     parser.add_argument("--dry-run", action="store_true")

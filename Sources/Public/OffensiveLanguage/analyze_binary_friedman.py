@@ -44,7 +44,7 @@ import numpy as np
 from scipy.stats import chi2, rankdata, wilcoxon
 
 
-ANALYSIS_VERSION = "binary-final-three-condition-friedman-v1"
+ANALYSIS_VERSION = "offensive-language-final-three-condition-friedman-v1"
 LOCK_NAME = "FRIEDMAN_ANALYSIS_LOCK.json"
 SOURCE_LOCK_NAME = "ADAPTIVE_ONE_SHOT_TEST_LOCK.json"
 EXPECTED_SOURCE_STATUS = "completed_one_shot_test_evaluation"
@@ -661,11 +661,11 @@ def sort_outputs(
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     default_input = (
         project_root
         / "Results"
-        / "BinaryMatchedSizeExperiment"
+        / "OffensiveLanguage"
         / "Downstream"
         / "AdaptivePolicy"
         / "OneShotTest"

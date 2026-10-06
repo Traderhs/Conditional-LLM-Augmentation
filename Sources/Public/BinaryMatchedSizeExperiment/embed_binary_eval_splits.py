@@ -452,7 +452,7 @@ def lock_files(output_root: Path) -> dict[str, str]:
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     parser = argparse.ArgumentParser(
         description="Qwen3 dev/test embedding for " + EXPERIMENT_NAME
     )

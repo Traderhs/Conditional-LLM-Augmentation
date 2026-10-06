@@ -688,7 +688,7 @@ def sort_outputs(
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     default_input = (
         project_root
         / "Results"

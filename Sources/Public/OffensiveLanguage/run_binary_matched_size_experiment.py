@@ -223,7 +223,7 @@ def write_final_lock(experiment_root: Path, integrity: dict[str, Any]) -> None:
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    project_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
     parser = argparse.ArgumentParser(description="Run " + EXPERIMENT_NAME)
     modes = parser.add_mutually_exclusive_group()
     modes.add_argument("--generation-only", action="store_true")
