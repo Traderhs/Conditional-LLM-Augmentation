@@ -19,7 +19,7 @@ DATA_DIR = (
 )
 
 INPUT_PATH = DATA_DIR / "paired_results.csv"
-OUTPUT_PATH = ROOT / "03_performance_across_augmentation_ratios.pdf"
+OUTPUT_PATH = ROOT / "04_performance_across_augmentation_ratios.pdf"
 
 
 

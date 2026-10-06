@@ -19,7 +19,7 @@ DATA_DIR = (
 )
 
 INPUT_PATH = DATA_DIR / "paired_weight_results.csv"
-OUTPUT_PATH = ROOT / "04_synthetic_weighting_effects.pdf"
+OUTPUT_PATH = ROOT / "05_synthetic_weighting_effects.pdf"
 
 
 

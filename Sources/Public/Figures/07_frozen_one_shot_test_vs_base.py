@@ -24,7 +24,7 @@ INPUT_PATH = (
 )
 OUTPUT_PATH = (
     ROOT
-    / "06_frozen_one_shot_test_vs_base.pdf"
+    / "07_frozen_one_shot_test_vs_base.pdf"
 )
 
 

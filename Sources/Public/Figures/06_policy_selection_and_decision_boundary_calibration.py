@@ -25,7 +25,7 @@ SUMMARY_PATH = (
 )
 OUTPUT_PATH = (
     ROOT
-    / "05_policy_selection_and_decision_boundary_calibration.pdf"
+    / "06_policy_selection_and_decision_boundary_calibration.pdf"
 )
 
 

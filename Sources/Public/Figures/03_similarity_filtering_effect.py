@@ -18,7 +18,7 @@ DATA_DIR = (
 )
 
 INPUT_PATH = DATA_DIR / "paired_results.csv"
-OUTPUT_PATH = ROOT / "02_similarity_filtering_effects.pdf"
+OUTPUT_PATH = ROOT / "03_similarity_filtering_effects.pdf"
 
 
 
