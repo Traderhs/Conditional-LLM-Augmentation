@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 
 SEED = 20260713
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
 RAW = PROJECT_ROOT / "Data" / "Raw"
 OUTPUT = PROJECT_ROOT / "Data" / "Prepared"
 SPLITS = ("train", "dev", "test")

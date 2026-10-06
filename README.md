@@ -37,11 +37,13 @@ The public release contains both the releasable source code and a curated redist
 ```text
 Conditional-Utility-of-LLM-Generated-Data-Augmentation-in-Multilingual-Binary-Classification/
 ├─ Sources/
-│  ├─ BinaryMatchedSizeExperiment/   # Generation, embeddings, paired experiments, policy freeze, and test analysis
-│  ├─ Common/                        # Shared LM Studio request and model-management utilities
-│  ├─ Data/                          # Dataset preparation and fixed experiment-bank construction
-│  ├─ Figures/                       # Manuscript figure-generation scripts
-│  └─ Pilot/                         # Generation-prompt pilot and validation
+│  └─ Public/
+│     ├─ BinaryMatchedSizeExperiment/ # Main generation, embedding, paired experiment, robustness, and audit code
+│     ├─ Common/                      # Shared LM Studio request and model-management utilities
+│     ├─ Data/                        # Dataset preparation, manifests, and public-data reconstruction
+│     ├─ Figures/                     # Manuscript figure-generation scripts
+│     ├─ OffensiveLanguage/           # Offensive-language robustness pipeline
+│     └─ Pilot/                       # Generation-prompt pilot and validation
 ├─ Public/
 │  ├─ Data/                          # Text-free experiment-bank indices, split/repetition manifests, and generation plans
 │  ├─ Results/                       # Sanitized synthetic outputs and numeric publication/revision result artifacts
@@ -52,13 +54,13 @@ Conditional-Utility-of-LLM-Generated-Data-Augmentation-in-Multilingual-Binary-Cl
 └─ README.md
 ```
 
-`Sources/Data/` contains the preprocessing and manifest-building code used to create cleaned train/development/test splits, fixed experiment banks, paired repetition records, and nested matched-size sampling plans.
+`Sources/Public/Data/` contains the preprocessing and manifest-building code used to create cleaned train/development/test splits, fixed experiment banks, paired repetition records, and nested matched-size sampling plans. It also contains `reconstruct_public_experiment_data.py`, which verifies the released text-free experiment-bank indices against locally prepared copies of the original datasets and reconstructs the exact Base and additional-real membership used in each paired repetition.
 
-`Sources/Pilot/` contains the binary-generation pilot used to validate prompting and output constraints before the main candidate-generation stage.
+`Sources/Public/Pilot/` contains the binary-generation pilot used to validate prompting and output constraints before the main candidate-generation stage.
 
-`Sources/BinaryMatchedSizeExperiment/` contains the main experimental pipeline, including synthetic candidate generation, Qwen3 and BGE-M3 embedding, matched-size development experiments, synthetic-weight search, conservative policy freezing, decision-boundary diagnostics, frozen one-shot test evaluation, and rank-based statistical analysis.
+`Sources/Public/BinaryMatchedSizeExperiment/` contains the main experimental pipeline, including synthetic candidate generation, Qwen3 and BGE-M3 embedding, matched-size development experiments, synthetic-weight search, conservative policy freezing, decision-boundary diagnostics, frozen one-shot test evaluation, rank-based statistical analysis, candidate-count sensitivity analysis, and the targeted robustness analyses.
 
-`Sources/Figures/` contains scripts used to generate the manuscript figures from preserved result tables.
+`Sources/Public/Figures/` contains scripts used to generate the manuscript figures from preserved result tables.
 
 `Public/` contains the curated reproducibility release assembled for the revision. It includes text-free real-data experiment-bank indices and exact repetition membership, sanitized generated outputs, main numeric result tables, candidate-count sensitivity results, targeted robustness results including the XLM-R arm, and a redistribution-safe qualitative-audit release. Third-party source text is not redistributed; stable row identifiers and text hashes are provided instead where reconstruction is required.
 
@@ -92,7 +94,7 @@ Conditional-Utility-of-LLM-Generated-Data-Augmentation-in-Multilingual-Binary-Cl
 └─ Figures/                                   # Rendered manuscript figures
 ```
 
-The `Data/` and `Results/` directories are excluded through `.gitignore`. Users must obtain the original datasets from their respective providers and place them in the paths expected by `Sources/Data/prepare_datasets.py`.
+The `Data/` and `Results/` directories are excluded through `.gitignore`. Users must obtain the original datasets from their respective providers and place them in the paths expected by `Sources/Public/Data/prepare_datasets.py`.
 
 ## Datasets
 
@@ -191,9 +193,9 @@ The final Friedman and Holm-adjusted paired post-hoc analyses support a signific
 A typical fresh run follows this stage order:
 
 1. acquire the original datasets under `Data/Raw/`;
-2. run `Sources/Data/prepare_datasets.py`;
-3. run `Sources/Data/build_experiment_manifest.py`;
-4. validate prompting with `Sources/Pilot/binary_pilot.py`;
+2. run `Sources/Public/Data/prepare_datasets.py`;
+3. run `Sources/Public/Data/build_experiment_manifest.py`;
+4. validate prompting with `Sources/Public/Pilot/binary_pilot.py`;
 5. generate candidates and create Qwen3/BGE-M3 embeddings;
 6. run the matched-size development grid;
 7. summarize the development results and run the synthetic-weight grid;
@@ -205,11 +207,11 @@ A typical fresh run follows this stage order:
 The main orchestration and stage-specific scripts expose command-line help:
 
 ```bash
-python Sources/BinaryMatchedSizeExperiment/run_binary_matched_size_experiment.py --help
-python Sources/BinaryMatchedSizeExperiment/run_binary_downstream_experiment.py --help
-python Sources/BinaryMatchedSizeExperiment/run_binary_synthetic_weight_grid.py --help
-python Sources/BinaryMatchedSizeExperiment/run_binary_decision_boundary_diagnostic.py --help
-python Sources/BinaryMatchedSizeExperiment/run_binary_adaptive_one_shot_test.py --help
+python Sources/Public/BinaryMatchedSizeExperiment/run_binary_matched_size_experiment.py --help
+python Sources/Public/BinaryMatchedSizeExperiment/run_binary_downstream_experiment.py --help
+python Sources/Public/BinaryMatchedSizeExperiment/run_binary_synthetic_weight_grid.py --help
+python Sources/Public/BinaryMatchedSizeExperiment/run_binary_decision_boundary_diagnostic.py --help
+python Sources/Public/BinaryMatchedSizeExperiment/run_binary_adaptive_one_shot_test.py --help
 ```
 
 Stage outputs are protected by manifests and lock files. Later stages should be run only after the required preceding outputs have been completed and validated.

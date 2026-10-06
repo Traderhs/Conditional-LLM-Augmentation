@@ -50,7 +50,7 @@ class DatasetAudit:
 
 def parse_args() -> argparse.Namespace:
     script = Path(__file__).resolve()
-    inferred_root = script.parents[2] if len(script.parents) >= 3 else Path.cwd()
+    inferred_root = script.parents[3] if len(script.parents) >= 4 else Path.cwd()
     parser = argparse.ArgumentParser(
         description=(
             "Build the B=280 matched-size experiment bank, R=50 paired "

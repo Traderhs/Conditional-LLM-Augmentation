@@ -28,7 +28,16 @@ This directory is a curated redistribution-safe package assembled from the proje
 
 ## Real-data reconstruction
 
-Retrieve each original dataset from its cited source, run the repository's public preprocessing code, and match rows using `_source_row`, `_text_hash`, and `row_id` in `experiment_bank_index.csv`. `repetitions.jsonl` then identifies the Base rows and the ordered additional-real pool used to construct Matched All-real conditions.
+Retrieve each original dataset from its cited source and place it under the paths expected by the public preprocessing script. Then run:
+
+```bash
+py -3 Sources/Public/Data/prepare_datasets.py
+py -3 Sources/Public/Data/reconstruct_public_experiment_data.py
+```
+
+`reconstruct_public_experiment_data.py` recomputes the stable row identifiers and SHA-256 text hashes from the locally prepared source data, verifies them against the released `experiment_bank_index.csv` files, and restores the exact source text for the 1,400-row experiment bank of each primary sentiment dataset. It also materializes the exact Base membership and ordered non-overlapping additional-real pool for every paired repetition. The released `ratio_prefixes.csv` reconstruction output specifies how much of that ordered pool belongs to each Matched All-real condition. To materialize every Base + additional-real condition explicitly, run the reconstruction script with `--expand-ratios`.
+
+The original source text is therefore reconstructed only on the user's machine from datasets obtained from their original providers; it is never distributed in the public package itself.
 
 The synthetic exports contain the generated text and the identifiers required to link it to the experiment bank without redistributing the third-party source text. The downstream selection-audit files identify selected synthetic `global_generation_index` values where applicable.
 
